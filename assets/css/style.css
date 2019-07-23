@@ -3,12 +3,20 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #fdfdfd;
+    color: #fff;
+}
+
+.row, .container, .container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
 h1,
 h2 {
     font-family: "Exo 2", sans-serif;
 }
+
+/* Containers */
 
 .nav-container {
     position: absolute;
@@ -19,6 +27,90 @@ h2 {
     z-index: 1;
 }
 
+.landing-container {
+    height: 100vh;
+    background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.75)
+}
+
+/* Separators */
+
+.separator span {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    line-height: 1;
+    background: gold;
+}
+
+.separator span:after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: gold;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.separator span:before {
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: gold;
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 7px 5px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn--cta {
+    background-color: gold;
+}
+
+.btn--readmore {
+    background-color: transparent;
+}
+
+/* Navbar */
+
 nav {
     width: 100%;
 }
@@ -27,6 +119,7 @@ nav {
     padding-right: 5px;
     padding-left: 5px;
     border: 1px solid;
+    margin-top: 3px;
     margin-bottom: 5px;
 }
 
@@ -45,4 +138,50 @@ nav {
 
 a.nav-link {
     text-transform: uppercase;
+}
+
+@media(min-width: 576px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+/* Landing section */
+
+.landing {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.landing-header {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 45px 15px 10px;
+}
+
+.landing-text {
+    font-size: .9rem;
+    padding-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin: 0 15px 10px;
+}
+
+@media(min-width: 768px) {
+   .landing-header {
+    font-size: 5.5rem;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+}
+
+@media(min-width: 768px) {
+   .landing-text {
+    font-size: 1.5rem;
+    padding-top: 40px;
+   }
 }
