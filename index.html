@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/images/favorite-heart-button.png" type="image/png">
     <link rel="stylesheet" href="libraries/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
@@ -14,6 +15,7 @@
 
 <body>
 
+    <!----- Header ----->
     <header>
         <div class="container-fluid nav-container">
             <nav class="navbar navbar-dark bg-dark navbar-fixed-top navbar-expand-sm">
@@ -29,7 +31,7 @@
                             <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="#about">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">FAQ</a>
@@ -45,13 +47,15 @@
             </nav>
         </div>
     </header>
+    <!----- end of Header ----->
 
-    <section class="landing" id="landing">
-        <div class="container-fluid landing-container">
-            <div class="opaque-overlay">&nbsp;</div>
+    <!----- Landing section ----->
+    <div class="container-fluid landing-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <section class="landing" id="landing">
             <div class="row">
                 <div class="col">
-                    <h1 class="landing-header">Welcome to Matter of Heart Psychotherapy</h1>
+                    <h1 class="landing-header">Welcome to <span class="mofh-branding">Matter of Heart</span> Psychotherapy</h1>
                 </div>
             </div>
             <div class="row">
@@ -66,41 +70,70 @@
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn--cta">Book an appointment</button>
+                    <a href="#contact" class="btn btn--cta">Book an appointment</a>
                 </div>
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-outline-light">Read more</button>
+                    <a href="#about" class="btn btn-outline-light">Read more</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section>
-    </section>
-
-    <section>
-    </section>
-
-    <section>
-    </section>
-
-    <section>
-    </section>
-
-    <footer>
-    </footer>
-
-    <div class="modal">
+        </section>
     </div>
+    <!----- end of Landing section ----->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4ca5255d6d.js"></script>
+    <!----- About section ----->
+    <div class="container-wrapper about-wrapper">
+        <div class="container about-container">
+            <section class="about" id="about">
+                <div class="row about-row">
+                    <div class="col col-md-6 about-image">
+                        <p><img class="align-middle" src="assets/images/ro_about-me.jpg" alt="About Me image" width="260" height="390"></p>
+                    </div>
+                    <div class="col-10 offset-1 offset-md-0 col-md-6 about-text">
+                        <h2 class=about-text-heading>About Me</h2>
+                        <p class="about-text-main">I am an experienced and professionally qualified Psychotherapist and Counsellor. I hold a Bachelor's Degree in Counselling and Psychotherapy from Dublin Business School, and as a member of the Irish Association for Counselling
+                            and Psychotherapy I adhere to their Code of Ethics, which supports High Professional Standards.</p>
+                        <p class="about-text-secondary">I adopt an integrative approach towards my clients that incorporates a variety of therapeutic models, including psychodynamic, person-centred, relational and behavioural. I offer a safe, confidential, supportive and nonjudgmental
+                            space in which to explore the issues you are encountering.</p>
+                        <p class="about-text-secondary d-none d-sm-block">You may wish to discuss a current situation at home or in work that is bothering you. You might be feeling overwhelmed by simple day-to-day tasks. You could be having difficulty in forming and maintaining relationships. Or perhaps
+                            you are struggling to let go of something from your past. These issues and many more can be worked through in therapy, and that is where I can help. I will work with you to try to help you deal with whatever dilemmas you may
+                            be facing.</p>
+                        <p class="about-text-secondary d-none d-sm-block">I have experience of working with a broad range of issues including, but not limited to, depression, anxiety, stress, addiction and addictive behaviour, alcohol and substance abuse, low self-esteem, family and relationship issues,
+                            eating disorders and phobias.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col about-cta">
+                        <a href="#contact" class="btn btn-outline-dark btn--cta">Book an appointment</a>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <!----- end of About section ----->
 
-    <script src="libraries/bootstrap.min.js"></script>
-    <script src="libraries/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/index.js"></script>
+        <section>
+        </section>
+
+        <section>
+        </section>
+
+        <section>
+        </section>
+
+        <footer>
+        </footer>
+
+        <div class="modal">
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/4ca5255d6d.js"></script>
+
+        <script src="libraries/bootstrap.min.js"></script>
+        <script src="libraries/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/index.js"></script>
 
 </body>
 
