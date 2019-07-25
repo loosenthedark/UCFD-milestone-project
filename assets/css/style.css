@@ -17,6 +17,13 @@ body {
 h1,
 h2 {
     font-family: "Exo 2", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: goldenrod;
+    font-size: 2.3rem;
+    letter-spacing: 0.5px;
 }
 
 
@@ -88,18 +95,36 @@ h2 {
 
 .blog-wrapper {
     
-    height: 100vh;
+    height: 120vh;
     
-    border: 1px solid blue;
     
 }
 
 .blog-container {
     
-    height: 100vh;
+    height: 120vh;
     
-    border: 1px solid black;
     
+}
+
+.contact-wrapper {
+    
+    height: 80vh;
+    
+    
+}
+
+.contact-container {
+    
+    height: 80vh;
+    border: 0.5px solid grey;
+    
+    
+}
+
+.footer-container {
+    height: 10vh;
+    background-color: rgba(41, 39, 34, 0.9);
 }
 
 
@@ -283,8 +308,6 @@ a.nav-link {
 
 .about-text-heading {
     text-align: center;
-    font-size: 2.3rem;
-    letter-spacing: 0.5px;
     color: goldenrod;
     margin-top: 20px;
 }
@@ -313,11 +336,9 @@ a.nav-link {
 
 /********** FAQ SECTION **********/
 
-.faq-heading h2 {
-    text-align: center;
-    font-size: 2.3rem;
-    letter-spacing: 0.5px;
-    color: goldenrod;
+.faq-heading h2,
+.blog-heading h2,
+.contact-heading h2 {
     padding: 10px 0;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -444,3 +465,33 @@ a.nav-link {
     width: 100%;
     background-color: rgba(115, 87, 17, 0.45);
 }
+
+.blog-heading {
+    background-color: rgba(41, 39, 34, 0.9);
+    height: 20vh;
+}
+
+.blog-heading h2 {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.blog-heading p {
+    font-size: .7rem;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+
+/********** CONTACT SECTION **********/
+
+.contact-heading h2 {
+    padding-top: 0;
+}
+
+
+
+/********** FOOTER **********/
