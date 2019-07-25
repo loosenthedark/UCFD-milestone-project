@@ -65,7 +65,7 @@ h2 {
 }
 
 .faqmobile-container {
-    height: 300px;
+    
     width: 100%;
     background-color: rgba(41, 39, 34, 0.9);
 }
@@ -75,13 +75,31 @@ h2 {
     height: 800px;
     width: 100%;
     background-color: olive;
+    
 }
 
 .faq-container {
     
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color: cyan;
+    
+}
+
+.blog-wrapper {
+    
+    height: 100vh;
+    
+    border: 1px solid blue;
+    
+}
+
+.blog-container {
+    
+    height: 100vh;
+    
+    border: 1px solid black;
+    
 }
 
 
@@ -144,8 +162,12 @@ h2 {
     background-color: goldenrod;
 }
 
-.btn--readmore {
-    background-color: transparent;
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn--readmore:hover {
+    cursor: context-menu;
 }
 
 
@@ -327,4 +349,98 @@ a.nav-link {
 .card-body {
     font-weight: 300;
     line-height: 1.4;
+}
+
+
+
+/********** BLOG SECTION **********/
+
+.blog {
+    
+}
+
+.blogbox {
+    color: #000;
+    height: 25vh;
+    font-weight: 500;
+    text-align: center;
+}
+
+.blogbox div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blogbox h4 {
+    font-size: 1rem;
+}
+
+#blogboxOne {
+    
+}
+
+#blogboxTwo {
+    background: url('../images/blogpicOne.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxThree {
+    background: url('../images/blogpicTwo.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxFour {
+    
+}
+
+#blogboxFive {
+
+}
+
+#blogboxSix {
+    background: url('../images/blogpicThree.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxSeven {
+    background: url('../images/blogpicFour.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxEight {
+    
+}
+
+.blogrow {
+    height: 25vh;
+}
+
+.blog-opaque-overlay-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.66);
+}
+
+.blog-opaque-overlay-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(115, 87, 17, 0.45);
 }
