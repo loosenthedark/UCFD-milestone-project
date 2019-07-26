@@ -72,58 +72,58 @@ h2 {
 }
 
 .faqmobile-container {
-    
+
     width: 100%;
     background-color: rgba(41, 39, 34, 0.9);
 }
 
 .faq-wrapper {
-    
+
     height: 800px;
     width: 100%;
     background-color: olive;
-    
+
 }
 
 .faq-container {
-    
+
     height: 800px;
     width: 100%;
     background-color: cyan;
-    
+
 }
 
 .blog-wrapper {
-    
+
     height: 120vh;
-    
-    
+
+
 }
 
 .blog-container {
-    
+
     height: 120vh;
-    
-    
+
+
 }
 
 .contact-wrapper {
-    
-    height: 80vh;
-    
-    
+
+    height: 82vh;
+
+
 }
 
 .contact-container {
-    
-    height: 80vh;
+
+    height: 82vh;
     border: 0.5px solid grey;
-    
-    
+
+
 }
 
 .footer-container {
-    height: 10vh;
+    height: 9vh;
     background-color: rgba(41, 39, 34, 0.9);
 }
 
@@ -193,6 +193,10 @@ h2 {
 
 .btn--readmore:hover {
     cursor: context-menu;
+}
+
+.contact button {
+    margin-top: 3px;
 }
 
 
@@ -376,9 +380,7 @@ a.nav-link {
 
 /********** BLOG SECTION **********/
 
-.blog {
-    
-}
+.blog {}
 
 .blogbox {
     color: #000;
@@ -396,9 +398,7 @@ a.nav-link {
     font-size: 1rem;
 }
 
-#blogboxOne {
-    
-}
+#blogboxOne {}
 
 #blogboxTwo {
     background: url('../images/blogpicOne.jpg') no-repeat center center;
@@ -416,13 +416,9 @@ a.nav-link {
     background-size: cover;
 }
 
-#blogboxFour {
-    
-}
+#blogboxFour {}
 
-#blogboxFive {
-
-}
+#blogboxFive {}
 
 #blogboxSix {
     background: url('../images/blogpicThree.jpg') no-repeat center center;
@@ -440,9 +436,7 @@ a.nav-link {
     background-size: cover;
 }
 
-#blogboxEight {
-    
-}
+#blogboxEight {}
 
 .blogrow {
     height: 25vh;
@@ -471,16 +465,17 @@ a.nav-link {
     height: 20vh;
 }
 
-.blog-heading h2 {
+.blog-heading h2,
+.contact-heading h2 {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
-.blog-heading p {
+.blog-heading p, .contact-heading p {
     font-size: .7rem;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 20px;
     margin-bottom: 10px;
 }
 
@@ -488,10 +483,66 @@ a.nav-link {
 
 /********** CONTACT SECTION **********/
 
+.contact-heading, .contactform {
+    color: #000;
+}
+
 .contact-heading h2 {
-    padding-top: 0;
+    padding-top: 10px;
+}
+
+.contact-heading p {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contact-cta {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form-control {
+    padding: 0 6px;
+}
+
+.contactform textarea {
+    padding: 8px 8px;
 }
 
 
 
 /********** FOOTER **********/
+
+.footer-row {
+    height: 9vh;
+}
+
+.social-links {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social-links-item {
+    font-size: 1.8rem;
+    
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.list-inline-item a {
+    text-decoration: none;
+    background-color: goldenrod;
+    color: rgba(41, 39, 34, 0.75);
+}
+
+.social-links li a i {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 2rem;
+    line-height: 1rem;
+}
