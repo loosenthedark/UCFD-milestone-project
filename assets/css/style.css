@@ -123,7 +123,7 @@ h2 {
 }
 
 .footer-container {
-    height: 9vh;
+    height: 60px;
     background-color: rgba(41, 39, 34, 0.9);
 }
 
@@ -515,34 +515,37 @@ a.nav-link {
 /********** FOOTER **********/
 
 .footer-row {
-    height: 9vh;
-}
-
-.social-links {
     text-align: center;
-    margin: 10px 0;
-}
-
-.social-links-item {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    height: 60px;
     
 }
 
-.list-inline-item:not(:last-child) {
-    margin-right: 3rem;
+.footer-col {
+    height: 60px;
+    
 }
 
-.list-inline-item a {
-    text-decoration: none;
-    background-color: goldenrod;
-    color: rgba(41, 39, 34, 0.75);
+.social-list {
+    margin-bottom: 0;
+    height: 60px;
+    justify-content: center;
 }
 
-.social-links li a i {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    padding: 15px;
-    font-size: 2rem;
-    line-height: 1rem;
+.social-list a {
+    padding: 0 30px 15px;
+    margin-top: 10px;
+}
+
+#facebooklink {
+    padding-left: 10px;
+}
+
+#linkedinlink {
+    padding-right: 10px;
+}
+
+.social-list i {
+    padding-top: 16px;
+    color: goldenrod;
 }
