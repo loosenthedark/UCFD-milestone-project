@@ -306,6 +306,8 @@ a.nav-link {
 }
 
 .about-text {
+    padding-left: 8px;
+    padding-right: 8px;
     color: #000;
     line-height: 1.35;
 }
@@ -440,6 +442,18 @@ a.nav-link {
 
 .blogrow {
     height: 25vh;
+}
+
+.blogrow a {
+    color: goldenrod;
+}
+
+.blogrow a:hover {
+    text-decoration: none;
+}
+
+.blogrow h4 {
+    margin-bottom: 0;
 }
 
 .blog-opaque-overlay-one {
