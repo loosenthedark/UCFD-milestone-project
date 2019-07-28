@@ -29,6 +29,13 @@ h2 {
     letter-spacing: 0.5px;
 }
 
+@media(min-width: 576px) {
+    h2 {
+        font-size: 3rem;
+        margin: 12px 0;
+    }
+}
+
 
 
 /********** CUSTOM TEXT STYLINGS ETC. **********/
@@ -74,6 +81,10 @@ h2 {
     background-color: rgba(41, 39, 34, 0.75)
 }
 
+.about-container {
+    background-color: #fdfdfd;
+}
+
 .faqmobile-container {
 
     width: 100%;
@@ -104,7 +115,7 @@ h2 {
 }
 
 .blog-container {
-
+    background-color: #fdfdfd;
     height: 120vh;
 
 
@@ -168,6 +179,17 @@ h2 {
     content: "";
     display: inline-block;
     margin-right: 20px;
+}
+
+.blog-separator span {
+    position: relative;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	width: 70px;
+	line-height: 1;
+	background: goldenrod;
 }
 
 
@@ -402,7 +424,7 @@ a.nav-link {
 }
 
 .about-image p img {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .about-text {
@@ -415,7 +437,7 @@ a.nav-link {
 .about-text-heading {
     text-align: center;
     color: goldenrod;
-    margin-top: 20px;
+
 }
 
 .about-text-main {
@@ -434,7 +456,24 @@ a.nav-link {
 
 @media(min-width: 576px) {
     .about-text {
-        margin-top: 35px;
+        margin-top: 15px;
+    }
+}
+
+@media(min-width: 576px) {
+    .about-image {
+        height: 55vh;
+    }
+    .about-image p img {
+        margin-top: 70px;
+        width: 336px;
+        height: 480px;
+    }
+    p.about-text-main {
+        margin-top: 0;
+        line-height: 1.42;
+        margin-bottom: 26px;
+        font-size: 17px;
     }
 }
 
@@ -469,10 +508,10 @@ a.nav-link {
 .card-header button {
     color: goldenrod;
     text-align: left;
-    margin-top: 5px;
-    letter-spacing: 0.5px;
+    margin-top: 4px;
+    letter-spacing: 0.3px;
     line-height: 1.5;
-
+    margin-bottom: 4px;
 }
 
 .card-header button:hover {
@@ -505,6 +544,10 @@ a.nav-link {
 
 .blogbox h4 {
     font-size: 1rem;
+}
+
+.blogbox i {
+    
 }
 
 #blogboxOne {}
@@ -552,7 +595,7 @@ a.nav-link {
 }
 
 .blogrow a {
-    color: goldenrod;
+    color: rgba(41, 39, 34, 0.9);
 }
 
 .blogrow a:hover {
