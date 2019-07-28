@@ -4,9 +4,15 @@ Favicon credit: <div>Icons made by <a href="https://www.flaticon.com/authors/gre
 
 JavaScript used to create accordion and hamburger
 
+https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp
 
+https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
+https://jsfiddle.net/9SDLw/
 
+styling of navbar toggler icon:
 
+https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
+https://www.codeply.com/go/4FdZGlPMNV
 
 
 
