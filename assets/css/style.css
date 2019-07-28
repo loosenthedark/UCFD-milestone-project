@@ -186,6 +186,15 @@ h2 {
     font-weight: 600;
 }
 
+@media(min-width: 768px) {
+    .btn {
+        margin-bottom: 10px;
+        line-height: 2;
+        min-width: 250px;
+        font-size: .9rem;
+    }
+}
+
 .btn--cta {
     background-color: goldenrod;
 }
@@ -206,6 +215,7 @@ h2 {
 .contact button {
     margin-top: 3px;
 }
+
 
 .btn-secondary {
     min-width: 150px;
@@ -241,7 +251,7 @@ a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
     padding: 5px;
     border: 1px solid;
     margin-left: 10px;
-    
+
 }
 
 .navbar-brand h3 {
@@ -251,7 +261,7 @@ a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
 }
 
 a.nav-link {
-
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -288,8 +298,25 @@ a.nav-link {
 
 @media(min-width: 576px) {
     .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 20px 15px;
+    }
+}
+
+@media(min-width: 576px) {
+    .navbar {
+        padding: 0;
+    }
+}
+
+@media(min-width: 576px) {
+    .navbar-nav {
+        padding-right: 0;
+    }
+}
+
+@media(min-width: 576px) {
+    .navbar-dark .navbar-nav .nav-link.active {
+        background-color: rgba(41, 39, 34, .99);
     }
 }
 
@@ -311,7 +338,7 @@ a.nav-link {
 }
 
 .landing-text {
-    
+
     padding-top: 25px;
     padding-left: 5%;
     padding-right: 5%;
@@ -322,19 +349,43 @@ a.nav-link {
     padding-top: 3px;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 576px) {
     .landing-header {
-        font-size: 5.5rem;
-        letter-spacing: 1px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 8px 0 25px;
+        font-size: 4rem;
+    }
+}
+
+@media(min-width: 576px) {
+    .landing-text {
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0 15px 28px;
+    }
+}
+
+@media(min-width: 576px) {
+    p.landing-text {
+        font-size: 1.2rem;
     }
 }
 
 @media(min-width: 768px) {
-    .landing-text {
+    .landing-header {
+        font-size: 5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0.7rem;
+    }
+}
+
+@media(min-width: 768px) {
+    p.landing-text {
         font-size: 1.5rem;
-        padding-top: 40px;
+        padding-top: 35px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 15px;
     }
 }
 
@@ -399,6 +450,11 @@ a.nav-link {
     margin-bottom: 10px;
 }
 
+.faq-heading h2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 #faq-accordion {
     color: #000;
     background-color: goldenrod;
@@ -406,7 +462,8 @@ a.nav-link {
 
 .card-header {
     background-color: rgba(41, 39, 34, 0.75);
-    padding: 10px 15px;
+    padding: 9px 15px;
+    position: relative;
 }
 
 .card-header button {
@@ -415,6 +472,7 @@ a.nav-link {
     margin-top: 5px;
     letter-spacing: 0.5px;
     line-height: 1.5;
+
 }
 
 .card-header button:hover {

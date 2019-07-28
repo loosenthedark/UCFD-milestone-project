@@ -61,7 +61,7 @@
         <section class="landing" id="landing">
             <div class="row">
                 <div class="col">
-                    <h1 class="landing-header">Welcome to <span class="mofh-branding">Matter of Heart</span> Psychotherapy</h1>
+                    <h1 class="landing-header">Welcome to <br><span class="mofh-branding">Matter of <br>Heart</span> Psychotherapy</h1>
                 </div>
             </div>
             <div class="row">
@@ -75,11 +75,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
-                    <a href="#contact" class="btn btn--cta">Book an appointment</a>
-                </div>
-                <div class="col-sm-6 readmore">
+                <div class="col readmore">
                     <a href="#about" class="btn btn-outline-light btn--readmore">Read more</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="#contact" class="btn btn--cta">Book an appointment</a>
                 </div>
             </div>
         </section>
@@ -431,6 +433,16 @@
     <script src="libraries/jquery-3.4.1.min.js"></script>
     <script src="assets/js/index.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            $("#faqcollapseOne").on("hide.bs.collapse", function() {
+                $(".btn").html('What Do Counselling and Psychotherapy Involve ? <span class="glyphicon glyphicon-collapse-down"></span>');
+            });
+            $("#faqcollapseOne").on("show.bs.collapse", function() {
+                $(".btn").html('What Do Counselling and Psychotherapy Involve ? <span class="glyphicon glyphicon-collapse-up"></span>');
+            });
+        });
+    </script>
 
 </body>
 
