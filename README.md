@@ -14,7 +14,11 @@ styling of navbar toggler icon:
 https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
 https://www.codeply.com/go/4FdZGlPMNV
 
+applying border-radius to contact form properly (overflow: hidden):
 
+https://stackoverflow.com/questions/6312067/border-radius-background-color-cropped-border
+
+CREDIT BINO THEME FOR MOFH ICONS IN CONTACT FORM BOX!!!
 
 
 
