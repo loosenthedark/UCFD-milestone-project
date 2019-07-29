@@ -107,18 +107,21 @@ h2 {
 
 }
 
-.blog-wrapper {
+.blog-wrapper,
+.blog-container {
 
     height: 120vh;
-
 
 }
 
-.blog-container {
+.blog-container,
+.blog-container-tablet {
     background-color: #fdfdfd;
-    height: 120vh;
 
+}
 
+.blog-container-tablet {
+    height: 154vh;
 }
 
 .contact-wrapper {
@@ -183,13 +186,13 @@ h2 {
 
 .blog-separator span {
     position: relative;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 2px;
-	width: 70px;
-	line-height: 1;
-	background: goldenrod;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 70px;
+    line-height: 1;
+    background: goldenrod;
 }
 
 
@@ -240,7 +243,9 @@ h2 {
 
 
 .btn-secondary {
-    min-width: 150px;
+    min-width: 140px;
+    line-height: .8rem;
+    font-weight: 500;
 }
 
 a.btn.btn-secondary.blogreadmore.btn--readmore {
@@ -270,7 +275,7 @@ a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
 }
 
 .navbar-brand {
-    padding: 5px;
+    padding: 5px 10px;
     border: 1px solid;
     margin-left: 10px;
 
@@ -530,11 +535,16 @@ a.nav-link {
 
 .blog {}
 
-.blogbox {
+.blogbox,
+.blogboxtablet {
     color: #000;
     height: 25vh;
     font-weight: 500;
     text-align: center;
+}
+
+.blogboxtablet {
+    height: 30vh;
 }
 
 .blogbox div {
@@ -546,13 +556,12 @@ a.nav-link {
     font-size: 1rem;
 }
 
-.blogbox i {
-    
-}
+.blogbox i {}
 
 #blogboxOne {}
 
-#blogboxTwo {
+#blogboxTwo,
+#blogboxtabletThree {
     background: url('../images/blogpicOne.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -560,7 +569,8 @@ a.nav-link {
     background-size: cover;
 }
 
-#blogboxThree {
+#blogboxThree,
+#blogboxtabletTwo {
     background: url('../images/blogpicTwo.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -572,7 +582,8 @@ a.nav-link {
 
 #blogboxFive {}
 
-#blogboxSix {
+#blogboxSix,
+#blogboxtabletSix {
     background: url('../images/blogpicThree.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -580,7 +591,8 @@ a.nav-link {
     background-size: cover;
 }
 
-#blogboxSeven {
+#blogboxSeven,
+#blogboxtabletSeven {
     background: url('../images/blogpicFour.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -594,11 +606,26 @@ a.nav-link {
     height: 25vh;
 }
 
-.blogrow a {
+.blogrowtablet {
+    height: 30vh;
+}
+
+.blogrow a,
+.blogrowtablet a h4 {
     color: rgba(41, 39, 34, 0.9);
 }
 
-.blogrow a:hover {
+.blogrowtablet a i {
+    color: goldenrod;
+}
+
+.blogrowtablet p {
+    color: rgba(41, 39, 34, 0.75);
+    font-size: .8rem;
+}
+
+.blogrow a:hover,
+.blogrowtablet a:hover {
     text-decoration: none;
 }
 
@@ -627,6 +654,7 @@ a.nav-link {
 .blog-heading {
     background-color: rgba(41, 39, 34, 0.9);
     height: 20vh;
+
 }
 
 .blog-heading h2,
@@ -644,6 +672,20 @@ a.nav-link {
     margin-bottom: 10px;
 }
 
+@media(min-width: 576px) {
+    .blog-heading {
+        height: 26vh;
+    }
+
+    .blog-heading h2 {
+        padding-top: 60px;
+    }
+
+    .blog-heading p {
+        padding: 0 60px;
+        font-size: .85rem;
+    }
+}
 
 
 /********** CONTACT SECTION **********/
