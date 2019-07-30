@@ -584,6 +584,7 @@ a.nav-link {
 
 .faq-heading {
     background-color: rgba(41, 39, 34, 0.9);
+    padding-bottom: 1px;
 }
 
 .faq {
