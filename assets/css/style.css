@@ -421,7 +421,7 @@ a.nav-link {
     padding-top: 25px;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 0 15px 23px;
+    margin: 0;
 }
 
 .landing .readmore {
@@ -464,7 +464,7 @@ a.nav-link {
 /********** ABOUT SECTION **********/
 
 .about-image {
-    height: 65vh;
+    height: 70vh;
 }
 
 .about-image p {
@@ -505,7 +505,7 @@ a.nav-link {
 @media(min-width: 576px) and (max-width:767px) {
     .about-image p img {
         margin-top: 60px;
-        
+
     }
     .about-text {
         margin-top: 40px;
@@ -546,6 +546,7 @@ a.nav-link {
     background-color: rgba(41, 39, 34, 0.75);
     padding: 9px 15px;
     position: relative;
+
 }
 
 .card-header button {
@@ -569,6 +570,20 @@ a.nav-link {
     text-decoration: none;
     color: goldenrod;
 }
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .card-header button {
+        font-size: .82rem;
+    }
+    .card-header button i {
+        font-size: 1.1rem;
+    }
+    .card-header h5 button::first-letter {
+        font-size: 1.25rem;
+    }
+}
+
+
 
 .card-body {
     font-weight: 300;
@@ -627,7 +642,7 @@ a.nav-link {
     line-height: 1.35;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     .faq-heading {
         padding-top: 60px;
     }
@@ -650,7 +665,7 @@ a.nav-link {
 }
 
 .blogboxtablet {
-    height: 35vh;
+    height: 50vh;
     border: 0.1px solid lightgrey;
 }
 
@@ -714,7 +729,7 @@ a.nav-link {
 }
 
 .blogrowtablet {
-    height: 35vh;
+    height: 50vh;
 }
 
 .blogrow a,
@@ -779,7 +794,7 @@ a.nav-link {
     margin-bottom: 10px;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     .blog-heading {
         height: 26vh;
     }
