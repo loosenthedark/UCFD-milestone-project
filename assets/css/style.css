@@ -81,10 +81,10 @@ h2 {
     background-color: rgba(41, 39, 34, 0.75);
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     .landing-container,
     .opaque-overlay {
-        height: 115vh;
+        height: 600px;
     }
 }
 
@@ -427,6 +427,7 @@ a.nav-link {
     }
     .landing-text {
         margin: 0;
+        padding: 15px 0;
     }
 }
 
