@@ -102,7 +102,7 @@ h2 {
 
     height: 100vh;
     width: 100%;
-    
+
 
 }
 
@@ -128,9 +128,7 @@ h2 {
 
 }
 
-.blog-container-tablet {
-    height: 154vh;
-}
+
 
 .contact-wrapper {
     position: relative;
@@ -172,9 +170,22 @@ h2 {
     right: 5%;
 }
 
+@media(min-width: 576px) {
+    .contact-container {
+        width: 65%;
+    }
+
+}
+
 .footer-container {
     height: 60px;
     background-color: rgba(41, 39, 34, 0.9);
+}
+
+@media(min-width: 576px) {
+    .footer-container {
+        height: 70px;
+    }
 }
 
 
@@ -583,7 +594,7 @@ a.nav-link {
 .carousel {
     width: 100%;
     height: 80.5vh;
-    
+
     color: black;
     background-color: rgba(41, 39, 34, 0.75);
 }
@@ -624,8 +635,8 @@ a.nav-link {
 
 @media(min-width: 576px) {
     .faq-heading {
-    padding-top: 60px;
-}
+        padding-top: 60px;
+    }
     .faq-heading h2 {
         margin: 0;
     }
@@ -645,7 +656,8 @@ a.nav-link {
 }
 
 .blogboxtablet {
-    height: 30vh;
+    height: 35vh;
+    border: 0.1px solid lightgrey;
 }
 
 .blogbox div {
@@ -708,7 +720,7 @@ a.nav-link {
 }
 
 .blogrowtablet {
-    height: 30vh;
+    height: 35vh;
 }
 
 .blogrow a,
@@ -818,6 +830,12 @@ a.nav-link {
     font-weight: 700;
 }
 
+@media(min-width: 576px) {
+    .contact .mofhicons h6 {
+        font-size: .4rem;
+    }
+}
+
 .contact-heading p {
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -894,6 +912,13 @@ a.nav-link {
     font-size: 1.6rem;
     height: 60px;
 
+}
+
+@media(min-width: 576px) {
+    .footer-row {
+        font-size: 2rem;
+        height: 70px;
+    }
 }
 
 .footer-col {
