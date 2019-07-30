@@ -420,27 +420,17 @@ a.nav-link {
     padding-top: 3px;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     .landing-header {
-        padding: 8px 0 25px;
-        font-size: 4rem;
+        padding: 5px 0;
+        font-size: 3.2rem;
     }
-}
-
-@media(min-width: 576px) {
     .landing-text {
-        padding-top: 40px;
-        padding-left: 10%;
-        padding-right: 10%;
-        margin: 0 15px 28px;
+        margin: 0;
     }
 }
 
-@media(min-width: 576px) {
-    p.landing-text {
-        font-size: 1.2rem;
-    }
-}
+
 
 @media(min-width: 768px) {
     .landing-header {
