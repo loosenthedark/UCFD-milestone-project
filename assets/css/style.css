@@ -29,12 +29,18 @@ h2 {
     letter-spacing: 0.5px;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 12px 0;
     }
 }
+
+@media(min-width: 576px) and (max-width: 767px) {
+    h4 {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
 
 
 
@@ -287,9 +293,10 @@ h2 {
 
 
 .btn-secondary {
-    min-width: 140px;
-    line-height: .8rem;
+    min-width: 120px;
+    line-height: .6rem;
     font-weight: 500;
+    margin-top: 8px;
 }
 
 a.btn.btn-secondary.blogreadmore.btn--readmore {
@@ -510,6 +517,9 @@ a.nav-link {
     .about-text {
         margin-top: 40px;
     }
+    .about-text-main {
+        margin-top: 0;
+    }
     .about-image {
         height: 350px;
     }
@@ -648,6 +658,7 @@ a.nav-link {
     }
     .faq-heading h2 {
         margin: 0;
+        padding: 5px 0 7px;
     }
 }
 
@@ -743,7 +754,7 @@ a.nav-link {
 
 .blogrowtablet p {
     color: rgba(41, 39, 34, 0.75);
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .blogrow a:hover,
@@ -796,16 +807,20 @@ a.nav-link {
 
 @media(min-width: 576px) and (max-width: 767px) {
     .blog-heading {
-        height: 26vh;
+        height: 46vh;
     }
 
     .blog-heading h2 {
-        padding-top: 60px;
+        padding-top: 45px;
     }
 
     .blog-heading p {
-        padding: 0 60px;
-        font-size: .85rem;
+        padding: 0 20px;
+        font-size: .75rem;
+    }
+    .blogboxtablet {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
