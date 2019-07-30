@@ -61,7 +61,7 @@
         <section class="landing" id="landing">
             <div class="row">
                 <div class="col">
-                    <h1 class="landing-header">Welcome to <br><span class="mofh-branding">Matter of <br>Heart</span> Psychotherapy</h1>
+                    <h1 class="landing-header">Welcome to <br><span class="mofh-branding">Matter of <br class="d-sm-none">Heart</span> Psychotherapy</h1>
                 </div>
             </div>
             <div class="row">
@@ -89,13 +89,13 @@
     <!----- end of Landing section ----->
 
     <!----- About section ----->
-    <div class="container-wrapper about-wrapper">
-        <div class="container about-container mx-auto">
-            <section class="about" id="about">
+    <section class="about" id="about">
+        <div class="container-wrapper about-wrapper">
+            <div class="container about-container mx-auto d-sm-none">
                 <div class="about-image">
-                    <p><img class="align-middle" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="245" height="350"></p>
+                    <p><img class="align-middle" id="Ro_img" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="245" height="350"></p>
                 </div>
-                <h2 class="about-text-heading d-none d-sm-block justify-conent-center">About Me</h2>
+                <h2 class="about-text-heading d-none d-sm-block">About Me</h2>
                 <div class="row about-row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6 about-text">
                         <h2 class="about-text-heading d-sm-none">About Me</h2>
@@ -125,9 +125,46 @@
                         <a href="#contact" class="btn btn-outline-dark btn--cta">Book an appointment</a>
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="container-fluid about-container">
+                <div class="row about-row-landscape">
+                    <div class="col-sm-4 about-images-landscape">
+                        <div class="row">
+                            <div class="col about-image">
+                                <p><img class="align-middle" id="Ro_img" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="196" height="280"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-sm-block">
+                                <p class="about-logos"><img class="align-middle" src="assets/images/IACPlogo.png" alt="DBS logo" width="110" height="60"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-sm-block">
+                                <p class="about-logos"><img class="align-middle" src="assets/images/dbs-logo-2019-small.png" alt="DBS logo" width="110" height="60"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 about-text">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="about-text-heading d-sm-block">About Me</h2>
+                                <p class="about-text-main">I am an experienced and professionally qualified Psychotherapist and Counsellor. I hold a Bachelor's Degree in Counselling and Psychotherapy from Dublin Business School, and as a member of the Irish Association for Counselling
+                                    and Psychotherapy I adhere to their Code of Ethics, which supports High Professional Standards.</p>
+                                <p class="about-text-secondary">I adopt an integrative approach towards my clients that incorporates a variety of therapeutic models, including psychodynamic, person-centred, relational and behavioural. I offer a safe, confidential, supportive and nonjudgmental
+                                    space in which to explore the issues you are encountering.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col about-cta">
+                                <a href="#contact" class="btn btn-outline-dark btn--cta">Book an appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
     <!----- end of About section ----->
 
     <!----- FAQ section ----->
