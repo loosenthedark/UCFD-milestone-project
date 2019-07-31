@@ -45,921 +45,927 @@ h2 {
 
 
 
-    /********** CUSTOM TEXT STYLINGS ETC. **********/
-    .mofh-branding {
-        display: inline-block;
-        color: goldenrod;
-    }
+/********** CUSTOM TEXT STYLINGS ETC. **********/
+
+.mofh-branding {
+    display: inline-block;
+    color: goldenrod;
+}
 
 
 
-    /********** CONTAINERS **********/
-    .nav-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        z-index: 1;
-    }
+/********** CONTAINERS **********/
 
-    .landing-container {
-        height: 100vh;
-        background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        padding-left: 0;
-        padding-right: 0;
-    }
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
 
+.landing-container {
+    height: 100vh;
+    background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.75);
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .landing-container,
     .opaque-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        background-color: rgba(41, 39, 34, 0.75);
+        height: 550px;
     }
+}
 
-    @media(min-width: 576px) and (max-width: 767px) {
-        .landing-container,
-        .opaque-overlay {
-            height: 550px;
-        }
-    }
+.about-container {
+    background-color: #fdfdfd;
+}
 
-    .about-container {
-        background-color: #fdfdfd;
-    }
+.faqmobile-container {
 
-    .faqmobile-container {
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.9);
+}
 
-        width: 100%;
-        background-color: rgba(41, 39, 34, 0.9);
-    }
+.faq-wrapper {
 
-    .faq-wrapper {
-
-        height: 100vh;
-        width: 100%;
+    height: 100vh;
+    width: 100%;
 
 
-    }
+}
 
-    .faq-container {
+.faq-container {
 
-        height: 90vh;
-        width: 100%;
-        margin-top: 8vh;
-        margin-bottom: 2vh;
+    height: 90vh;
+    width: 100%;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
 
-    }
+}
 
-    .blog-wrapper,
-    .blog-container {
+.blog-wrapper,
+.blog-container {
 
-        height: 120vh;
+    height: 120vh;
 
-    }
+}
 
-    .blog-container,
-    .blog-container-tablet {
-        background-color: #fdfdfd;
+.blog-container,
+.blog-container-tablet {
+    background-color: #fdfdfd;
 
-    }
+}
 
 
 
-    .contact-wrapper {
-        position: relative;
-        height: 90vh;
+.contact-wrapper {
+    position: relative;
+    height: 90vh;
 
-        background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        padding-left: 0;
-        padding-right: 0;
+    background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
 
-    }
+}
 
-    .opaque-overlayTwo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 90vh;
-        width: 100%;
-        background-color: rgba(41, 39, 34, 0.65);
-    }
+.opaque-overlayTwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.65);
+}
 
+.contact-container {
+    position: absolute;
+    height: 77vh;
+    border: 1px solid rgba(41, 39, 34, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fafaf8;
+    margin-top: 11vh;
+    margin-bottom: 2vh;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+
+@media(min-width: 576px) {
     .contact-container {
-        position: absolute;
-        height: 75vh;
-        border: 1px solid rgba(41, 39, 34, 0.9);
-        border-radius: 10px;
-        overflow: hidden;
-        background-color: #fdfdfd;
-        margin-top: 11vh;
-        margin-bottom: 2vh;
-        width: 90%;
-        left: 5%;
-        right: 5%;
+        width: 65%;
     }
 
-    @media(min-width: 576px) {
-        .contact-container {
-            width: 65%;
-        }
+}
 
-    }
-
-    .footer-container {
-        height: 60px;
-        background-color: rgba(41, 39, 34, 0.9);
-    }
-
-    @media(min-width: 576px) {
-        .footer-container {
-            height: 70px;
-        }
-    }
+.footer-container {
+    height: 60px;
+    background-color: rgba(41, 39, 34, 0.9);
+}
 
 
 
-    /********** SEPARATORS **********/
-    .separator span {
-        position: relative;
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 12px;
-        width: 12px;
-        border-radius: 50%;
-        line-height: 1;
-        background: goldenrod;
-    }
-
-    .separator span:after {
-        position: absolute;
-        left: 5%;
-        bottom: 4px;
-        height: 1px;
-        width: 80px;
-        background: goldenrod;
-        content: "";
-        display: inline-block;
-        margin-left: 20px;
-    }
-
-    .separator span:before {
-        position: absolute;
-        right: 5%;
-        bottom: 4px;
-        height: 1px;
-        width: 80px;
-        background: goldenrod;
-        content: "";
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    .blog-separator span {
-        position: relative;
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 2px;
-        width: 70px;
-        line-height: 1;
-        background: goldenrod;
-    }
 
 
+/********** SEPARATORS **********/
 
-    /********** BUTTONS **********/
+.separator span {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    line-height: 1;
+    background: goldenrod;
+}
+
+.separator span:after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: goldenrod;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.separator span:before {
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: goldenrod;
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.blog-separator span {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 70px;
+    line-height: 1;
+    background: goldenrod;
+}
+
+
+
+/********** BUTTONS **********/
+
+.btn {
+    padding: 7px 5px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    line-height: 1.7;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media(min-width: 768px) {
     .btn {
-        padding: 7px 5px;
-        margin-top: 12px;
-        margin-bottom: 5px;
-        line-height: 1.7;
-        min-width: 200px;
-        text-transform: uppercase;
-        font-size: .7rem;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    @media(min-width: 768px) {
-        .btn {
-            margin-bottom: 10px;
-            line-height: 2;
-            min-width: 250px;
-            font-size: .9rem;
-        }
-    }
-
-    .btn--cta {
-        background-color: goldenrod;
-    }
-
-    .btn--cta:hover {
-        background-color: #b1871b;
-        color: #fff;
-    }
-
-    .btn:hover {
-        cursor: pointer;
-    }
-
-    .btn--readmore:hover {
-        cursor: context-menu;
-    }
-
-    .contact button {
-        margin-top: 3px;
-    }
-
-
-    .btn-secondary {
-        min-width: 120px;
-        line-height: .6rem;
-        font-weight: 500;
-        margin-top: 8px;
-    }
-
-    a.btn.btn-secondary.blogreadmore.btn--readmore {
-        color: #fff;
-        background: rgba(41, 39, 34, 0.75);
-    }
-
-    a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
-        background: rgba(41, 39, 34, 0.9);
-    }
-
-
-
-    /********** NAVBAR **********/
-    .navbar {
-        padding: 5px 0;
-        position: relative;
-    }
-
-    .navbar-fixed-top {
-        position: fixed;
-        top: 0;
-        left: 0;
-        opacity: 0.7;
-        width: 100%;
-    }
-
-    .navbar-brand {
-        padding: 5px 10px;
-        border: 1px solid;
-        margin-left: 10px;
-
-    }
-
-    .navbar-brand h3 {
-        margin-bottom: 0;
-        font-size: 1.75rem;
-        font-weight: 500;
-    }
-
-    a.nav-link {
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-
-    .nav-link.active {
-        color: goldenrod;
-        font-weight: 500;
-    }
-
-    .navbar-dark .navbar-nav .nav-link {
-        color: #fdfdfd;
-    }
-
-    .navbar-dark .navbar-nav .nav-link.active {
-        color: goldenrod;
-    }
-
-    .navbar-toggler {
-        border: none;
-        padding: 12px 15px 10px;
-    }
-
-    .custom-toggler.navbar-toggler {
-        border-color: goldenrod;
-    }
-
-    .custom-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='goldenrod' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-
-    .navbar-nav {
-        text-align: right;
-        padding-right: 15px;
-    }
-
-    @media(min-width: 576px) {
-        .navbar-expand-sm .navbar-nav .nav-link {
-            padding: 20px 15px;
-        }
-    }
-
-    @media(min-width: 576px) {
-        .navbar {
-            padding: 0;
-        }
-    }
-
-    @media(min-width: 576px) {
-        .navbar-nav {
-            padding-right: 0;
-        }
-    }
-
-    @media(min-width: 576px) {
-        .navbar-dark .navbar-nav .nav-link.active {
-            background-color: rgba(41, 39, 34, .99);
-        }
-    }
-
-    @media(min-width: 576px) and (max-width: 767px) {
-        nav {
-            line-height: 1;
-        }
-    }
-
-
-
-
-
-    /********** LANDING SECTION **********/
-    .landing {
-        margin-bottom: -70px;
-        text-align: center;
-    }
-
-    .landing-header {
-        font-size: 3rem;
-        font-weight: 700;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin: 55px 3px 0;
-    }
-
-    .landing-text {
-
-        padding-top: 25px;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin: 0;
-    }
-
-    .landing .readmore {
-        padding-top: 3px;
-    }
-
-    @media(min-width: 576px) and (max-width: 767px) {
-        .landing-header {
-            padding: 5px 0;
-            font-size: 3.2rem;
-        }
-        .landing-text {
-            margin: 0;
-            padding: 15px 0;
-        }
-    }
-
-
-
-    @media(min-width: 768px) {
-        .landing-header {
-            font-size: 5rem;
-            padding-top: 1.5rem;
-            padding-bottom: 0.7rem;
-        }
-    }
-
-    @media(min-width: 768px) {
-        p.landing-text {
-            font-size: 1.5rem;
-            padding-top: 35px;
-            padding-left: 20%;
-            padding-right: 20%;
-            padding-bottom: 15px;
-        }
-    }
-
-
-
-    /********** ABOUT SECTION **********/
-    .about-image {
-        height: 70vh;
-    }
-
-    .about-image p {
-        text-align: center;
-    }
-
-    .about-image p img {
-        margin-top: 20%;
-    }
-
-    .about-text {
-        padding-left: 8px;
-        padding-right: 8px;
-        color: #000;
-        line-height: 1.35;
-    }
-
-    .about-text-heading {
-        text-align: center;
-        color: goldenrod;
-
-    }
-
-    .about-text-main {
-        font-weight: 500;
-        margin-top: 18px;
-    }
-
-    .about-text-secondary {
-        font-weight: 300;
-    }
-
-    .about-cta {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    @media(min-width: 576px) and (max-width:767px) {
-        .about-image p img {
-            margin-top: 60px;
-
-        }
-        .about-text {
-            margin-top: 40px;
-        }
-        .about-text-main {
-            margin-top: 0;
-        }
-        .about-image {
-            height: 350px;
-        }
-        p.about-logos {
-            text-align: center;
-        }
-        .about-image {
-            padding-left: 5px;
-        }
-    }
-
-
-    /********** FAQ SECTION **********/
-    .faq-heading h2,
-    .blog-heading h2,
-    .contact-heading h2 {
-        padding: 10px 0;
-        margin-top: 10px;
         margin-bottom: 10px;
+        line-height: 2;
+        min-width: 250px;
+        font-size: .9rem;
     }
+}
 
-    .faq-heading h2 {
-        margin-top: 12px;
-        margin-bottom: 12px;
+.btn--cta {
+    background-color: goldenrod;
+}
+
+.btn--cta:hover {
+    background-color: #b1871b;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn--readmore:hover {
+    cursor: context-menu;
+}
+
+.contact button {
+    margin-top: 3px;
+    min-width: 170px;
+}
+
+
+.btn-secondary {
+    min-width: 120px;
+    line-height: .6rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+a.btn.btn-secondary.blogreadmore.btn--readmore {
+    color: #fff;
+    background: rgba(41, 39, 34, 0.75);
+}
+
+a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
+    background: rgba(41, 39, 34, 0.9);
+}
+
+
+
+/********** NAVBAR **********/
+
+.navbar {
+    padding: 5px 0;
+    position: relative;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding: 5px 10px;
+    border: 1px solid;
+    margin-left: 10px;
+
+}
+
+.navbar-brand h3 {
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+a.nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link.active {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fdfdfd;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: goldenrod;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 12px 15px 10px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: goldenrod;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='goldenrod' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+    text-align: right;
+    padding-right: 15px;
+}
+
+@media(min-width: 576px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding: 20px 15px;
     }
+}
 
-    #faq-accordion {
-        color: #000;
-        background-color: goldenrod;
+@media(min-width: 576px) {
+    .navbar {
+        padding: 0;
     }
+}
 
-    .card-header {
-        background-color: rgba(41, 39, 34, 0.75);
-        padding: 9px 15px;
-        position: relative;
-
-    }
-
-    .card-header button {
-        color: goldenrod;
-        text-align: left;
-        margin-top: 4px;
-        letter-spacing: 0.3px;
-        line-height: 1.2;
-        margin-bottom: 4px;
-    }
-
-    .card-header button i {
-        font-size: 1rem;
-    }
-
-    .card-header h5 button::first-letter {
-        font-size: 1rem;
-    }
-
-    .card-header button:hover {
-        text-decoration: none;
-        color: goldenrod;
-    }
-
-    @media(min-width: 576px) and (max-width: 767px) {
-        .card-header button {
-            font-size: .82rem;
-        }
-        .card-header button i {
-            font-size: 1.1rem;
-        }
-        .card-header h5 button::first-letter {
-            font-size: 1.25rem;
-        }
-    }
-
-
-
-    .card-body {
-        font-weight: 300;
-        line-height: 1.4;
-    }
-
-    .faq-heading {
-        background-color: rgba(41, 39, 34, 0.9);
-        padding-bottom: 1px;
-    }
-
-    .faq {
-        width: 100%;
-        position: relative;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 80.5vh;
-
-        color: black;
-        background-color: rgba(41, 39, 34, 0.75);
-    }
-
-    .carousel-inner {}
-
-    .carousel-inner,
-    .carousel-item,
-    .carousel img {
-        height: 75vh;
-    }
-
-    .carousel-caption {
-        text-align: left;
-        position: absolute;
-        width: 86%;
-        left: 7%;
-        top: 0;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        width: 5%;
-    }
-
-    .faq-group {}
-
-    .faq-question h5 {
-        color: goldenrod;
-        font-size: 1.2rem;
-    }
-
-    .faq-answer {
-        color: #fdfdfd;
-        font-size: .85rem;
-        line-height: 1.35;
-    }
-
-    @media(min-width: 576px) and (max-width: 767px) {
-        .faq-heading {
-            padding-top: 60px;
-        }
-        .faq-heading h2 {
-            margin: 0;
-            padding: 5px 0 7px;
-        }
-    }
-
-
-    /********** BLOG SECTION **********/
-    .blog {}
-
-    .blogbox,
-    .blogboxtablet {
-        color: #000;
-        height: 25vh;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    .blogboxtablet {
-        height: 50vh;
-        border: 0.1px solid lightgrey;
-    }
-
-    .blogbox div {
-        padding-left: 0;
+@media(min-width: 576px) {
+    .navbar-nav {
         padding-right: 0;
     }
+}
 
-    .blogbox h4 {
-        font-size: 1rem;
+@media(min-width: 576px) {
+    .navbar-dark .navbar-nav .nav-link.active {
+        background-color: rgba(41, 39, 34, .99);
     }
+}
 
-    .blogbox i {}
-
-    #blogboxOne {}
-
-    #blogboxTwo,
-    #blogboxtabletThree {
-        background: url('../images/blogpicOne.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    #blogboxThree,
-    #blogboxtabletTwo {
-        background: url('../images/blogpicTwo.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    #blogboxFour {}
-
-    #blogboxFive {}
-
-    #blogboxSix,
-    #blogboxtabletSix {
-        background: url('../images/blogpicThree.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    #blogboxSeven,
-    #blogboxtabletSeven {
-        background: url('../images/blogpicFour.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    #blogboxEight {}
-
-    .blogrow {
-        height: 25vh;
-    }
-
-    .blogrowtablet {
-        height: 50vh;
-    }
-
-    .blogrow a,
-    .blogrowtablet a h4 {
-        color: rgba(41, 39, 34, 0.9);
-    }
-
-    .blogrowtablet a i {
-        color: goldenrod;
-    }
-
-    .blogrowtablet p {
-        color: rgba(41, 39, 34, 0.75);
-        font-size: .7rem;
-    }
-
-    .blogrow a:hover,
-    .blogrowtablet a:hover {
-        text-decoration: none;
-    }
-
-    .blogrow h4 {
-        margin-bottom: 0;
-    }
-
-    .blog-opaque-overlay-one {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(41, 39, 34, 0.66);
-    }
-
-    .blog-opaque-overlay-two {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(115, 87, 17, 0.45);
-    }
-
-    .blog-heading {
-        background-color: rgba(41, 39, 34, 0.9);
-        height: 20vh;
-
-    }
-
-    .blog-heading h2,
-    .contact-heading h2 {
-        margin: 0;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-
-    .blog-heading p,
-    .contact-heading p {
-        font-size: .7rem;
-        text-align: center;
-        padding: 0 20px;
-        margin-bottom: 10px;
-    }
-
-    @media(min-width: 576px) and (max-width: 767px) {
-        .blog-heading {
-            height: 46vh;
-        }
-
-        .blog-heading h2 {
-            padding-top: 45px;
-        }
-
-        .blog-heading p {
-            padding: 0 20px;
-            font-size: .75rem;
-        }
-        .blogboxtablet {
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-    }
-
-
-    /********** CONTACT SECTION **********/
-    .contact {
-        height: 75vh;
-        width: 100%;
-
-    }
-
-    .contact-heading,
-    .contactform {
-        color: #000;
-    }
-
-    .contactform {
-        padding: 0;
-    }
-
-    .contact-heading h2 {
-        padding-top: 10px;
+@media(min-width: 576px) and (max-width: 767px) {
+    nav {
         line-height: 1;
-        font-size: 2.1rem;
     }
+}
 
-    .contact .mofhicons h6 {
-        font-size: .6rem;
-        text-transform: uppercase;
-        font-weight: 700;
+
+
+
+
+/********** LANDING SECTION **********/
+
+.landing {
+    margin-bottom: -70px;
+    text-align: center;
+}
+
+.landing-header {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 55px 3px 0;
+}
+
+.landing-text {
+
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+.landing .readmore {
+    padding-top: 3px;
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .landing-header {
+        padding: 5px 0;
+        font-size: 3.2rem;
     }
-
-    @media(min-width: 576px) {
-        .contact .mofhicons h6 {
-            font-size: .4rem;
-        }
+    .landing-text {
+        margin: 0;
+        padding: 15px 0;
     }
+}
 
-    .contact-heading p {
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-        font-weight: 500;
-        padding-right: 12px;
-        padding-left: 12px;
+
+
+@media(min-width: 768px) {
+    .landing-header {
+        font-size: 5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0.7rem;
     }
+}
 
-    .mofhicons {
-        color: rgba(41, 39, 34, 0.9);
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0;
-        text-align: center;
-    }
-
-    .mofhiconsframe {
-        border: 2px solid #b1871b;
-        border-radius: 20%;
-        background-color: goldenrod;
-        margin-bottom: 5px;
-        height: 55px;
-    }
-
-    .mofhiconsbox {
-        padding: 0;
-        margin-top: 10px;
-    }
-
-    .mofhicon {
+@media(min-width: 768px) {
+    p.landing-text {
         font-size: 1.5rem;
-        font-weight: 600;
-        padding-top: 10px;
+        padding-top: 35px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 15px;
     }
+}
 
-    .mofhsummary {
-        color: rgba(41, 39, 34, 0.9);
+
+
+/********** ABOUT SECTION **********/
+
+.about-image {
+    height: 70vh;
+}
+
+.about-image p {
+    text-align: center;
+}
+
+.about-image p img {
+    margin-top: 20%;
+}
+
+.about-text {
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #000;
+    line-height: 1.35;
+}
+
+.about-text-heading {
+    text-align: center;
+    color: goldenrod;
+
+}
+
+.about-text-main {
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.about-text-secondary {
+    font-weight: 300;
+}
+
+.about-cta {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media(min-width: 576px) and (max-width:767px) {
+    .about-image p img {
+        margin-top: 60px;
+
     }
-
-    .contact-cta {
+    .about-text {
+        margin-top: 40px;
+    }
+    .about-text-main {
+        margin-top: 0;
+    }
+    .about-image {
+        height: 350px;
+    }
+    p.about-logos {
         text-align: center;
-        padding-bottom: 10px;
+    }
+    .about-image {
+        padding-left: 5px;
+    }
+}
+
+
+/********** FAQ SECTION **********/
+
+.faq-heading h2,
+.blog-heading h2,
+.contact-heading h2 {
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.faq-heading h2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#faq-accordion {
+    color: #000;
+    background-color: goldenrod;
+}
+
+.card-header {
+    background-color: rgba(41, 39, 34, 0.75);
+    padding: 9px 15px;
+    position: relative;
+
+}
+
+.card-header button {
+    color: goldenrod;
+    text-align: left;
+    margin-top: 4px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.card-header button i {
+    font-size: 1rem;
+}
+
+.card-header h5 button::first-letter {
+    font-size: 1rem;
+}
+
+.card-header button:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .card-header button {
+        font-size: .82rem;
+    }
+    .card-header button i {
+        font-size: 1.1rem;
+    }
+    .card-header h5 button::first-letter {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+.card-body {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.faq-heading {
+    background-color: rgba(41, 39, 34, 0.9);
+    padding-bottom: 1px;
+}
+
+.faq {
+    width: 100%;
+    position: relative;
+}
+
+.carousel {
+    width: 100%;
+    height: 80.5vh;
+
+    color: black;
+    background-color: rgba(41, 39, 34, 0.75);
+}
+
+.carousel-inner {}
+
+.carousel-inner,
+.carousel-item,
+.carousel img {
+    height: 75vh;
+}
+
+.carousel-caption {
+    text-align: left;
+    position: absolute;
+    width: 86%;
+    left: 7%;
+    top: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.faq-group {}
+
+.faq-question h5 {
+    color: goldenrod;
+    font-size: 1.2rem;
+}
+
+.faq-answer {
+    color: #fdfdfd;
+    font-size: .85rem;
+    line-height: 1.35;
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .faq-heading {
+        padding-top: 60px;
+    }
+    .faq-heading h2 {
+        margin: 0;
+        padding: 5px 0 7px;
+    }
+}
+
+
+/********** BLOG SECTION **********/
+
+.blog {}
+
+.blogbox,
+.blogboxtablet {
+    color: #000;
+    height: 25vh;
+    font-weight: 500;
+    text-align: center;
+}
+
+.blogboxtablet {
+    height: 50vh;
+    border: 0.1px solid lightgrey;
+}
+
+.blogbox div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blogbox h4 {
+    font-size: 1rem;
+}
+
+.blogbox i {}
+
+#blogboxOne {}
+
+#blogboxTwo,
+#blogboxtabletThree {
+    background: url('../images/blogpicOne.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxThree,
+#blogboxtabletTwo {
+    background: url('../images/blogpicTwo.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxFour {}
+
+#blogboxFive {}
+
+#blogboxSix,
+#blogboxtabletSix {
+    background: url('../images/blogpicThree.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxSeven,
+#blogboxtabletSeven {
+    background: url('../images/blogpicFour.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#blogboxEight {}
+
+.blogrow {
+    height: 25vh;
+}
+
+.blogrowtablet {
+    height: 50vh;
+}
+
+.blogrow a,
+.blogrowtablet a h4 {
+    color: rgba(41, 39, 34, 0.9);
+}
+
+.blogrowtablet a i {
+    color: goldenrod;
+}
+
+.blogrowtablet p {
+    color: rgba(41, 39, 34, 0.75);
+    font-size: .7rem;
+}
+
+.blogrow a:hover,
+.blogrowtablet a:hover {
+    text-decoration: none;
+}
+
+.blogrow h4 {
+    margin-bottom: 0;
+}
+
+.blog-opaque-overlay-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 39, 34, 0.66);
+}
+
+.blog-opaque-overlay-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(115, 87, 17, 0.45);
+}
+
+.blog-heading {
+    background-color: rgba(41, 39, 34, 0.9);
+    height: 20vh;
+
+}
+
+.blog-heading h2,
+.contact-heading h2 {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.blog-heading p,
+.contact-heading p {
+    font-size: .7rem;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .blog-heading {
+        height: 46vh;
     }
 
-    .form-group {
-        margin-bottom: 12px;
-        line-height: 1.2;
+    .blog-heading h2 {
+        padding-top: 45px;
     }
 
-    .form-control {
-        padding: 0 6px;
-        line-height: 1.2;
-        border: 1px solid #adb5bd;
+    .blog-heading p {
+        padding: 0 20px;
+        font-size: .75rem;
     }
-
-    .contactform textarea {
-        padding: 8px 8px;
+    .blogboxtablet {
+        padding-left: 5px;
+        padding-right: 5px;
     }
+}
 
-    @media(min-width: 576px) {
-        .contact-heading h2 {
-            padding-bottom: 5px;
-        }
-        .contact .textbox {
-            margin-bottom: 9px;
-        }
+
+/********** CONTACT SECTION **********/
+
+.contact {
+    height: 75vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.contact-heading,
+.contactform {
+    color: #000;
+}
+
+.contactform {
+    padding: 0;
+}
+
+.contact-heading h2 {
+    padding-top: 10px;
+    line-height: 1;
+    font-size: 1.9rem;
+}
+
+.contact .mofhicons h6 {
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media(min-width: 576px) {
+    .contact .mofhicons h6 {
+        font-size: .4rem;
     }
+}
 
-    /********** FOOTER **********/
-    .footer-row {
-        text-align: center;
-        font-size: 1.6rem;
-        height: 60px;
+.contact-heading p {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding-right: 12px;
+    padding-left: 12px;
+}
 
+.mofhicons {
+    color: rgba(41, 39, 34, 0.9);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    text-align: center;
+}
+
+.mofhiconsframe {
+    border: 2px solid #b1871b;
+    border-radius: 20%;
+    background-color: goldenrod;
+    margin-bottom: 5px;
+    height: 55px;
+}
+
+.mofhiconsbox {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.mofhicon {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.mofhsummary {
+    color: rgba(41, 39, 34, 0.9);
+}
+
+.contact-cta {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+
+}
+
+.form-control {
+    padding: 0 6px;
+    line-height: 1;
+    border: 1px solid #adb5bd;
+    font-size: .8rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.contactform textarea {
+    padding: 8px 8px;
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .contact-heading h2 {
+        padding-bottom: 5px;
     }
-
-    @media(min-width: 576px) {
-        .footer-row {
-            font-size: 2rem;
-            height: 70px;
-        }
+    .contact .textbox {
+        margin-bottom: 9px;
     }
+}
 
-    .footer-col {
-        height: 60px;
+/********** FOOTER **********/
 
-    }
+.footer-row {
+    text-align: center;
+    font-size: 1.8rem;
+    height: 60px;
 
-    .social-list {
-        margin-bottom: 0;
-        height: 60px;
-        justify-content: center;
-    }
+}
 
-    .social-list a {
-        padding: 0 30px 15px;
-        margin-top: 10px;
-    }
 
-    #facebooklink {
-        padding-left: 10px;
-    }
 
-    #linkedinlink {
-        padding-right: 10px;
-    }
+.footer-col {
+    height: 60px;
 
-    .social-list i {
-        padding-top: 16px;
-        color: goldenrod;
-    }
+}
+
+.social-list {
+    margin-bottom: 0;
+    height: 60px;
+    justify-content: center;
+}
+
+.social-list a {
+    padding: 5px 30px 5px;
+    margin-top: 10px;
+}
+
+#facebooklink {
+    padding-left: 10px;
+}
+
+#linkedinlink {
+    padding-right: 10px;
+}
+
+.social-list i {
+    padding-top: 16px;
+    color: goldenrod;
+}
