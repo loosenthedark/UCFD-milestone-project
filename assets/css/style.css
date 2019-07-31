@@ -231,6 +231,25 @@ h2 {
     margin-right: 20px;
 }
 
+@media(min-width: 768px) {
+    .separator span {
+        height: 18px;
+        width: 18px;
+    }
+    .separator span:before {
+        right: 30%;
+        bottom: 8px;
+        height: 2px;
+        width: 100px;
+    }
+    .separator span:after {
+        left: 30%;
+        bottom: 8px;
+        height: 2px;
+        width: 100px;
+    }
+}
+
 .blog-separator span {
     position: relative;
     display: inline-block;
@@ -330,10 +349,23 @@ a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
 
 }
 
+@media(min-width: 768px) {
+    .navbar-brand {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 .navbar-brand h3 {
     margin-bottom: 0;
     font-size: 1.75rem;
     font-weight: 500;
+}
+
+@media(min-width: 768px) {
+    .navbar-brand h3 {
+        font-size: 2rem;
+    }
 }
 
 a.nav-link {
@@ -402,6 +434,14 @@ a.nav-link {
     }
 }
 
+@media(min-width: 768px) {
+    nav {
+        font-size: 1.1rem;
+    }
+}
+
+
+
 
 
 
@@ -450,17 +490,17 @@ a.nav-link {
     .landing-header {
         font-size: 5rem;
         padding-top: 1.5rem;
-        padding-bottom: 0.7rem;
+        padding-bottom: 1.2rem;
     }
 }
 
 @media(min-width: 768px) {
     p.landing-text {
         font-size: 1.5rem;
-        padding-top: 35px;
+        padding-top: 30px;
         padding-left: 20%;
         padding-right: 20%;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
 }
 
