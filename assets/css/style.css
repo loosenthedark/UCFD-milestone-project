@@ -284,6 +284,10 @@ h2 {
         min-width: 250px;
         font-size: .9rem;
     }
+    .about-cta .btn {
+        min-width: 220px;
+        margin-top: -30px;
+    }
 }
 
 .btn--cta {
@@ -566,6 +570,49 @@ a.nav-link {
     }
     .about-image {
         padding-left: 5px;
+    }
+}
+
+@media(min-width: 767px) {
+    .about-image {
+        height: 40vh;
+    }
+    .about-image p img {
+        width: 249px;
+        height: 340px;
+        margin-top: 10%;
+    }
+    .about-text {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .about-text-heading {
+        font-size: 2.7rem;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .about-text-main {
+        margin-top: 0;
+    }
+    .about-text p {
+        margin-bottom: 1rem;
+    }
+    .about-text .about-text-secondary {
+        font-size: .9rem;
+        margin-bottom: 0;
+    }
+    .about-logos {
+        margin-bottom: 8px;
+    }
+    .about-logos img {
+        width: 142px;
+        height: 79px;
+    }
+    .iacplogo {
+        text-align: right;
+    }
+    #iacplogo {
+        margin-right: 8px;
     }
 }
 
