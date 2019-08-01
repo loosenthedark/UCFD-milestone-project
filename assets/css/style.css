@@ -66,7 +66,7 @@ h2 {
 }
 
 .landing-container {
-    height: 100vh;
+    height: 110vh;
     background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,7 +83,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color: rgba(41, 39, 34, 0.75);
 }
@@ -129,7 +129,7 @@ h2 {
 .blog-wrapper,
 .blog-container {
 
-    height: 120vh;
+    height: 128vh;
 
 }
 
@@ -143,7 +143,7 @@ h2 {
 
 .contact-wrapper {
     position: relative;
-    height: 90vh;
+    height: 91vh;
 
     background: url('../images/art-deco-blur-dark.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -162,7 +162,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 90vh;
+    height: 91vh;
     width: 100%;
     background-color: rgba(41, 39, 34, 0.65);
 }
@@ -173,23 +173,34 @@ h2 {
     border: 1px solid rgba(41, 39, 34, 0.9);
     border-radius: 10px;
     overflow: hidden;
-    background-color: #fafaf8;
-    margin-top: 11vh;
+    background-color: #f8f9fa;
+    margin-top: 10vh;
     margin-bottom: 2vh;
     width: 90%;
     left: 5%;
     right: 5%;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 576px) and (max-width: 767px) {
     .contact-container {
         width: 65%;
+        margin-top: 55px;
+        height: 485px;
     }
-
+    .contact-wrapper,
+    .opaque-overlayTwo {
+        height: 560px;
+    }
+    .contact-heading {
+        margin-bottom: 20px;
+    }
+    .contact-heading p {
+        padding-top: 3px;
+    }
 }
 
 .footer-container {
-    height: 60px;
+    height: 65px;
     background-color: rgba(41, 39, 34, 0.9);
 }
 
@@ -461,7 +472,7 @@ a.nav-link {
 /********** LANDING SECTION **********/
 
 .landing {
-    margin-bottom: -70px;
+
     text-align: center;
 }
 
@@ -627,6 +638,13 @@ a.nav-link {
 
 /********** FAQ SECTION **********/
 
+.faq {
+    width: 100%;
+    position: relative;
+    height: 160vh;
+    background-color: #fdfdfd;
+}
+
 .faq-heading h2,
 .blog-heading h2,
 .contact-heading h2 {
@@ -643,6 +661,12 @@ a.nav-link {
 #faq-accordion {
     color: #000;
     background-color: goldenrod;
+}
+
+.card {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 .card-header {
@@ -674,6 +698,10 @@ a.nav-link {
     color: goldenrod;
 }
 
+#faqcollapseEight .card-body {
+    border-bottom: 0;
+}
+
 @media(min-width: 576px) and (max-width: 767px) {
     .card-header button {
         font-size: .82rem;
@@ -684,6 +712,9 @@ a.nav-link {
     .card-header h5 button::first-letter {
         font-size: 1.25rem;
     }
+    .faq {
+        height: 245vh;
+    }
 }
 
 
@@ -691,18 +722,15 @@ a.nav-link {
 .card-body {
     font-weight: 300;
     line-height: 1.4;
-}
-
-.faq {
-    width: 100%;
-    position: relative;
-    height: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fdfdfd;
 }
 
 .faq-heading {
     background-color: rgba(41, 39, 34, 0.9);
     padding-bottom: 1px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .carousel {
@@ -965,14 +993,14 @@ a.nav-link {
 
 .blog-heading {
     background-color: rgba(41, 39, 34, 0.9);
-    height: 20vh;
+    height: 28vh;
 
 }
 
 .blog-heading h2,
 .contact-heading h2 {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 58px;
     padding-bottom: 10px;
 }
 
@@ -1007,9 +1035,12 @@ a.nav-link {
 /********** CONTACT SECTION **********/
 
 .contact {
-    height: 75vh;
+    height: 91vh;
     width: 100%;
-    overflow: auto;
+}
+
+.contact-heading {
+    margin-bottom: 15px;
 }
 
 .contact-heading,
@@ -1085,7 +1116,7 @@ a.nav-link {
 }
 
 .form-group {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 
 }
 
@@ -1103,11 +1134,14 @@ a.nav-link {
 }
 
 @media(min-width: 576px) and (max-width: 767px) {
+    .contact {
+        height: 560px;
+    }
     .contact-heading h2 {
         padding-bottom: 5px;
     }
     .contact .textbox {
-        margin-bottom: 9px;
+        margin-bottom: 20px;
     }
 }
 
