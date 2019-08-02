@@ -213,12 +213,28 @@ h2 {
     }
 }
 
+@media(min-width: 768px) {
+    .contact-container {
+        height: 80vh;
+        margin-top: 3vh;
+        width: 72%;
+    }
+    .contact-wrapper,
+    .opaque-overlayTwo {
+        height: 98vh;
+    }
+    .contact-wrapper {
+        padding-top: 5vh;
+    }
+    .contact-heading p {
+        line-height: 1.2;
+    }
+}
+
 .footer-container {
     height: 65px;
     background-color: rgba(41, 39, 34, 0.9);
 }
-
-
 
 
 
@@ -359,6 +375,9 @@ a.btn.btn-secondary.blogreadmore.btn--readmore {
         min-width: 130px;
         line-height: .75rem;
         margin-top: 12px;
+    }
+    .contact button {
+        min-width: 220px;
     }
 }
 
@@ -1127,18 +1146,6 @@ a.nav-link {
     font-size: 1.9rem;
 }
 
-.contact .mofhicons h6 {
-    font-size: .6rem;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-@media(min-width: 576px) {
-    .contact .mofhicons h6 {
-        font-size: .4rem;
-    }
-}
-
 .contact-heading p {
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -1147,8 +1154,14 @@ a.nav-link {
     padding-left: 12px;
 }
 
+.contact .mofhicons h6 {
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .mofhicons {
-    color: rgba(41, 39, 34, 0.9);
+    color: rgba(41, 39, 34, 0.75);
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -1157,16 +1170,20 @@ a.nav-link {
 }
 
 .mofhiconsframe {
-    border: 2px solid #b1871b;
+    border: 4px solid goldenrod;
+    background-color: rgba(41, 39, 34, 0.07);
     border-radius: 20%;
-    background-color: goldenrod;
     margin-bottom: 5px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
+}
+
+.mofhiconsframe:hover {
+    background-color: goldenrod;
 }
 
 .mofhiconsbox {
-    padding: 0;
-    margin-top: 10px;
+    padding: 0 10px;
 }
 
 .mofhicon {
@@ -1177,6 +1194,8 @@ a.nav-link {
 
 .mofhsummary {
     color: rgba(41, 39, 34, 0.9);
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .contact-cta {
@@ -1186,7 +1205,6 @@ a.nav-link {
 
 .form-group {
     margin-bottom: 15px;
-
 }
 
 .form-control {
@@ -1211,6 +1229,51 @@ a.nav-link {
     }
     .contact .textbox {
         margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 576px) {
+    .contact .mofhicons h6 {
+        font-size: .4rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .contact {
+        margin-top: 5vh;
+    }
+    .contact-heading p {
+        margin-bottom: 20px;
+        padding: 5px 45px;
+    }
+    .mofhicons {
+        margin-bottom: 20px;
+    }
+    .mofhicon {
+        font-size: 2rem;
+    }
+    .contact .mofhicons h6 {
+        font-size: .6rem;
+    }
+    .form-group {
+        margin-bottom: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .form-group textarea {
+        line-height: 1.2;
+    }
+    .form-group.textbox {
+        margin-bottom: 10px;
+    }
+    .contact-cta {
+        margin-top: 30px;
+    }
+    .contact-heading {
+        margin-top: 20px;
+    }
+    .contact-heading h2 {
+        font-size: 2.7rem;
     }
 }
 
