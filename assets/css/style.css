@@ -48,6 +48,13 @@ h2 {
         font-size: 2.7rem;
         margin: 12px 0;
     }
+    h4 {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    i.fas.fa-book-reader {
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -345,6 +352,14 @@ h2 {
 a.btn.btn-secondary.blogreadmore.btn--readmore {
     color: #fff;
     background: rgba(41, 39, 34, 0.75);
+}
+
+@media(min-width: 768px) {
+    .btn-secondary {
+        min-width: 130px;
+        line-height: .75rem;
+        margin-top: 12px;
+    }
 }
 
 a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
@@ -892,6 +907,11 @@ a.nav-link {
     color: #000;
 }
 
+.hvr-sweep-to-right:before,
+.hvr-sweep-to-left:before {
+    background-color: rgba(41, 39, 34, 0.15);
+}
+
 
 
 /********** BLOG SECTION **********/
@@ -975,11 +995,11 @@ a.nav-link {
 }
 
 .blogrow a,
-.blogrowtablet a h4 {
+.blogrowtablet h4 {
     color: rgba(41, 39, 34, 0.9);
 }
 
-.blogrowtablet a i {
+.blogrowtablet i {
     color: goldenrod;
 }
 
@@ -1065,6 +1085,18 @@ a.nav-link {
     .contact-heading p {
         font-size: .9rem;
         padding: 0 30px;
+    }
+    .blogboxtablet,
+    .blogrowtablet {
+        height: 25vh;
+    }
+    .blogrowtablet p {
+        font-size: .9rem;
+        margin-top: .5rem;
+    }
+    .blogboxtablet {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
