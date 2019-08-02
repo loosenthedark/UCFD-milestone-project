@@ -20,6 +20,11 @@ https://stackoverflow.com/questions/6312067/border-radius-background-color-cropp
 
 CREDIT BINO THEME FOR MOFH ICONS IN CONTACT FORM BOX!!!
 
+Hover.css used at bottom of FAQ section, as well as in Blog and Footer sections:
+
+http://ianlunn.github.io/Hover/
+https://github.com/IanLunn/Hover
+
 
 
 

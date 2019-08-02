@@ -43,6 +43,13 @@ h2 {
     }
 }
 
+@media(min-width: 768px) {
+    h2 {
+        font-size: 2.7rem;
+        margin: 12px 0;
+    }
+}
+
 
 
 /********** CUSTOM TEXT STYLINGS ETC. **********/
@@ -645,6 +652,12 @@ a.nav-link {
     background-color: #fdfdfd;
 }
 
+@media(min-width: 767px) {
+    .faq {
+        height: 100vh;
+    }
+}
+
 .faq-heading h2,
 .blog-heading h2,
 .contact-heading h2 {
@@ -811,7 +824,7 @@ a.nav-link {
 
 .faqvideo,
 .faqaudio {
-    height: 40vh;
+    height: 41vh;
 }
 
 .faqvideo {
@@ -866,6 +879,17 @@ a.nav-link {
 
 .faqmedia p a:hover {
     text-decoration: none;
+}
+
+
+
+/********** HOVER.CSS **********/
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+    background-color: rgba(41, 39, 34, 0.15);
+    color: #000;
 }
 
 
@@ -994,7 +1018,6 @@ a.nav-link {
 .blog-heading {
     background-color: rgba(41, 39, 34, 0.9);
     height: 28vh;
-
 }
 
 .blog-heading h2,
@@ -1028,6 +1051,20 @@ a.nav-link {
     .blogboxtablet {
         padding-left: 5px;
         padding-right: 5px;
+    }
+}
+
+@media(min-width: 768px) {
+    .blog-heading {
+        height: 20vh;
+    }
+    .blog-heading h2 {
+        padding-top: 75px;
+    }
+    .blog-heading p,
+    .contact-heading p {
+        font-size: .9rem;
+        padding: 0 30px;
     }
 }
 
