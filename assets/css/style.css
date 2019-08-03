@@ -159,6 +159,10 @@ h2 {
     height: 42vh;
 }
 
+.faq-heading-container {
+    width: 200%;
+}
+
 .blog-wrapper,
 .blog-container {
 
@@ -864,10 +868,12 @@ a.nav-link {
     height: 58vh;
 
     color: black;
-    background-color: rgba(41, 39, 34, 0.75);
+    background-color: #fdfdfd;
 }
 
-.carousel-inner {}
+.carousel-inner {
+    background-color: rgba(41, 39, 34, 0.75);
+}
 
 .carousel-inner,
 .carousel-item,
@@ -887,7 +893,7 @@ a.nav-link {
 .carousel-control-prev {
     width: 5%;
 
-    padding-top: 120px;
+    padding-top: 22vh;
 }
 
 .carousel-control-prev-icon {
@@ -998,14 +1004,32 @@ a.nav-link {
 @media(min-width: 992px) {
     .carousel {
         width: 50%;
-        height: 77.25vh;
+        height: 100vh;
     }
     .carousel-item,
     .carousel-inner {
-        height: 71vh;
+        height: 78vh;
+    }
+    .carousel-text {
+        top: 1%;
+        left: 7%;
+        width: 86%;
+    }
+    .carousel-control-prev-icon {
+        margin-left: 5px;
+    }
+
+    .carousel-control-next-icon {
+        margin-right: 5px;
     }
     .carousel-indicators {
         margin-bottom: 5px;
+    }
+    .faq-heading {
+        height: 22vh;
+    }
+    .faq-heading h2 {
+        margin-top: 18px;
     }
     .faq-question h5 {
         margin-top: 10px;
