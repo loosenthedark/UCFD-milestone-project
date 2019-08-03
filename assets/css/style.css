@@ -63,6 +63,12 @@ h2 {
     }
 }
 
+@media(min-width: 992px) {
+    h2 {
+        font-size: 3rem;
+    }
+}
+
 
 
 /********** CUSTOM TEXT STYLINGS ETC. **********/
@@ -117,6 +123,13 @@ h2 {
 
 .about-container {
     background-color: #fdfdfd;
+}
+
+@media(min-width: 992px) {
+    .about-container,
+    .about-wrapper {
+        height: 100vh;
+    }
 }
 
 .faqmobile-container {
@@ -402,6 +415,10 @@ a.btn.btn-secondary.blogreadmore.btn--readmore:hover {
     .landing .btn {
         margin-top: 8px;
     }
+    .about-cta .btn {
+        margin-top: 25px;
+    }
+}
 
 
 
@@ -521,10 +538,6 @@ a.nav-link {
         font-size: 1.1rem;
     }
 }
-
-
-
-
 
 
 
@@ -708,6 +721,39 @@ a.nav-link {
     }
 }
 
+@media(min-width: 992px) {
+    .about-image p img {
+        margin-top: 22%;
+    }
+    .about-image {
+        height: 435px;
+    }
+    .about-image, .about-images-landscape {
+        padding: 0;
+    }
+    .about-text-heading {
+        margin-top: 70px;
+        font-size: 3rem;
+    }
+    .about-text .about-text-main {
+        margin-bottom: .7rem;
+        font-size: 1.11rem;
+    }
+    .about-text .about-text-secondary {
+        margin-bottom: .7rem;
+        font-size: 1rem;
+    }
+    .about-text {
+        padding-right: 30px;
+    }
+    .about-text .col-sm-12 {
+        padding: 0;
+    }
+    .about-logos {
+        text-align: center;
+    }
+}
+
 
 /********** FAQ SECTION **********/
 
@@ -839,7 +885,7 @@ a.nav-link {
 .carousel-control-next,
 .carousel-control-prev {
     width: 5%;
-    
+
     padding-top: 120px;
 }
 
