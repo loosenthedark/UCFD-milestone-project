@@ -25,6 +25,8 @@ Hover.css used at bottom of FAQ section, as well as in Blog and Footer sections:
 http://ianlunn.github.io/Hover/
 https://github.com/IanLunn/Hover
 
+In line with advice from Traversy Media's video tutorial (), I decided against implementing smooth scrolling using pure CSS due to cross-browser compatibility concerns. Instead, I chose to apply this effect using jQuery and JavaScript.
+
 
 
 
