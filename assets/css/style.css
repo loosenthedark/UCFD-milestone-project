@@ -157,6 +157,9 @@ h2 {
 
 .faqmedia-container {
     height: 43vh;
+    width: 50%;
+    float: right;
+    margin-top: -78vh;
 }
 
 .faq-heading-container {
@@ -247,8 +250,20 @@ h2 {
     .contact-wrapper {
         padding-top: 5vh;
     }
-    .contact-heading p {
-        line-height: 1.2;
+}
+
+@media(min-width: 992px) {
+    .contact-container {
+        height: 120vh;
+        margin-top: 15vh;
+        width: 55%;
+    }
+    .contact-wrapper,
+    .opaque-overlayTwo {
+        height: 140vh;
+    }
+    .contact-wrapper {
+        padding-top: 0;
     }
 }
 
@@ -1301,7 +1316,7 @@ a.nav-link {
     .blogrowtablet p {
         padding-left: 12%;
         padding-right: 12%;
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1.2;
         font-style: italic;
     }
@@ -1312,7 +1327,7 @@ a.nav-link {
         font-size: 1.6rem;
     }
     .blogrowtablet p span {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -1441,6 +1456,7 @@ a.nav-link {
         margin-top: 5vh;
     }
     .contact-heading p {
+        line-height: 1.2;
         margin-bottom: 20px;
         padding: 5px 45px;
     }
@@ -1474,6 +1490,32 @@ a.nav-link {
         font-size: 2.7rem;
     }
 }
+
+@media(min-width: 992px) {
+    .contact {
+        height: 140vh;
+        margin-top: 0;
+    }
+    .mofhiconsframe {
+        width: 80px;
+        height: 80px;
+    }
+    .mofhicon {
+        font-size: 2.3rem;
+    }
+    .contact .mofhicons h6 {
+        font-size: .7rem;
+    }
+    .contact-heading h2 {
+        font-size: 3rem;
+    }
+    .contact-heading p {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+
 
 /********** FOOTER **********/
 
