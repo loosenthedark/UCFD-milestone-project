@@ -1016,13 +1016,35 @@ a.nav-link {
         height: 100vh;
     }
     .carousel-item,
-    .carousel-inner {
+    .carousel-inner,
+    .faqmedia-container {
         height: 78vh;
+    }
+    .faqvideo,
+    .faqaudio {
+        width: 50%;
+    }
+    .faqvideo {
+        height: 52vh;
+    }
+    .faqaudio {
+        height: 26vh;
+    }
+    .faqvideorow,
+    .faqaudiorow {
+        width: 100%;
+    }
+    .faqvideocontent {
+        padding-right: 25px;
     }
     .carousel-text {
         top: 1%;
         left: 7%;
         width: 86%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        padding-top: 20vh;
     }
     .carousel-control-prev-icon {
         margin-left: 5px;
@@ -1047,9 +1069,16 @@ a.nav-link {
         line-height: 1.3;
         font-size: .9rem;
     }
-    .carousel-control-next,
-    .carousel-control-prev {
-        padding-top: 22vh;
+    .faqmedia i {
+        font-size: 3.6rem;
+    }
+    .faqvideoicon,
+    .faqaudioicon {
+        padding-top: 0;
+        padding-left: 25px;
+    }
+    .faqaudioicon {
+        padding-right: 0;
     }
 }
 
