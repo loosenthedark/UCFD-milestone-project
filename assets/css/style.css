@@ -135,7 +135,7 @@ h2 {
 .faqmobile-container {
 
     width: 100%;
-    background-color: rgba(41, 39, 34, 0.9);
+    background-color: #fdfdfd;
 }
 
 .faq-wrapper {
@@ -156,7 +156,7 @@ h2 {
 }
 
 .faqmedia-container {
-    height: 42vh;
+    height: 43vh;
 }
 
 .faq-heading-container {
@@ -865,7 +865,7 @@ a.nav-link {
 
 .carousel {
     width: 100%;
-    height: 58vh;
+    height: 57vh;
 
     color: black;
     background-color: #fdfdfd;
@@ -886,14 +886,13 @@ a.nav-link {
     position: absolute;
     width: 86%;
     left: 7%;
-    top: 7%;
+    top: 5%;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
     width: 5%;
-
-    padding-top: 22vh;
+    padding-top: 10vh;
 }
 
 .carousel-control-prev-icon {
@@ -944,7 +943,7 @@ a.nav-link {
 
 .faqvideo,
 .faqaudio {
-    height: 41vh;
+    height: 43vh;
 }
 
 .faqvideo {
@@ -1001,6 +1000,16 @@ a.nav-link {
     text-decoration: none;
 }
 
+@media(min-width: 768px) and (max-width: 991px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 57px;
+    }
+    .faq-heading {
+        height: 13vh;
+    }
+}
+
 @media(min-width: 992px) {
     .carousel {
         width: 50%;
@@ -1022,9 +1031,7 @@ a.nav-link {
     .carousel-control-next-icon {
         margin-right: 5px;
     }
-    .carousel-indicators {
-        margin-bottom: 5px;
-    }
+
     .faq-heading {
         height: 22vh;
     }
@@ -1039,6 +1046,10 @@ a.nav-link {
         margin-bottom: 10px;
         line-height: 1.3;
         font-size: .9rem;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        padding-top: 22vh;
     }
 }
 
@@ -1203,7 +1214,7 @@ a.nav-link {
 
 @media(min-width: 576px) and (max-width: 767px) {
     .blog-heading {
-        height: 46vh;
+        height: 150px;
     }
 
     .blog-heading h2 {
