@@ -24,6 +24,15 @@ The second fundamental aim was to provide prospective clients with an easy-to-us
 
 ## UX
 
+In consultation with the site owner during the project's planning stages, he told me how he wanted me to design "something that stood out from the typical generic appearance of most psychotherapy sites with their soft pastel colours and Buddha and waterfall images". He also mentioned a preference for incorporating a vaguely art deco aesthetic if possible. These considerations collectively informed my choice of colours, fonts, images etc. to build a website with a distinctive feel and coherent structure.
+
+As with any website, a number of needs existed prior to construction. These needs are best summarised in the following three core User Stories:
+
+1. "As site owner, I need a welcoming, informative and user-friendly webpage where I can showcase my therapy practice by providing details about my background and therapeutic approach, while also pre-emptively answering common queries prospective clients are likely to have. My desired outcome will be an increase in my client base and overall growth of the company profile."
+2. "As someone who knows a bit about psychotherapy and/or has availed of therapy before, I am looking to find out more about Matter of Heart Psychotherapy with a view towards potentially booking an appointment. In addition, I would like to be able to follow this practice on social media."
+3. "As someone who knows little or nothing about psychotherapy, I would like to learn about what is involved in order to decide whether it is something I would like to avail of. I would also like the option of maybe booking an appointment."
+
+These three overlapping requirements dictated how I set about designing the site's layout. Adopting a mobile-first approach, I strived to maintain a suitable balance between providing too little and too much information - keeping in mind screen size limitations on smaller devices as well as competing external user needs. Measured use of Bootstrap components like an `.accordion` and `.carousel` made factoring in and meeting these needs more manageable, while I was also able to take advantage of Bootstrap's default display classes to make content visible or hidden as appropriate.
 
  
 ## Features
