@@ -1,85 +1,54 @@
-https://wpshout.com/quick-guides/create-text-outline-css/
+# Matter of Heart Psychotherapy
 
-Favicon credit: <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+*Code Institute: User Centric Frontend Development - Milestone Project*
 
-JavaScript used to create accordion and hamburger
+Matter of Heart Psychotherapy is the name of a recently-established therapy practice based in Dublin.
 
-https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp
+As it is still in its infancy, the business lacks any sort of tangible online presence - something that is essential nowadays towards gaining a foothold within the industry and establishing a client base. I therefore set out to build a clearly laid out webpage with two overarching objectives.
 
-https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
-https://jsfiddle.net/9SDLw/
+Firstly, the site should serve as a 'shop window' of sorts for the therapist, allowing him to document his educational background, relevant qualifications and professional experience, as well as outlining his approach towards treating clients.
 
-styling of navbar toggler icon:
+The second fundamental aim was to provide prospective clients with an easy-to-use, concise and visually appealing portal of information, featuring digestible resources and summaries pertaining to both the broad profession of psychotherapy itself and the more specific details of what it is Matter of Heart Psychotherapy can do for them.
 
-https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
-https://www.codeply.com/go/4FdZGlPMNV
-
-applying border-radius to contact form properly (overflow: hidden):
-
-https://stackoverflow.com/questions/6312067/border-radius-background-color-cropped-border
-
-CREDIT BINO THEME FOR MOFH ICONS IN CONTACT FORM BOX!!!
-
-Hover.css used at bottom of FAQ section, as well as in Blog and Footer sections:
-
-http://ianlunn.github.io/Hover/
-https://github.com/IanLunn/Hover
-
-In line with advice from Traversy Media's video tutorial (), I decided against implementing smooth scrolling using pure CSS due to cross-browser compatibility concerns. Instead, I chose to apply this effect using jQuery and JavaScript.
+## UX
 
 
+ 
+## Features
 
+### Existing Features
 
++ The Bootstrap JavaScript Scrollspy plugin was enabled via data-* attributes in order to bring some colour and life to the navbar, as well as to engender a sense of progress and flow as users navigate between the various page sections. Guidance on how to do this was obtained from the following W3Schools [reference](https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp) and [tutorial](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
++ In order to create a smooth scrolling effect as users navigate between anchor links on the site, I firstly read up on [optional means of enabling this](https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link). I subsequently decided against using pure CSS in order to achieve this due to cross-browser compatibility concerns, and instead followed the advice of [Traversy Media's YouTube tutorial](https://www.youtube.com/watch?v=y9nlfqT4s9s) in order to enable it using jQuery (see local index.js file for further details).
++ A fixed-position responsive navbar (collapsed on extra-small and small devices, visible on landscape phones and all larger screen sizes) ensures simple, fluid movement and safeguards against users getting 'lost' anywhere within the site.
++ Several built-in Bootstrap components and JavaScript plugins were utilised to achieve certain design goals:
+  + The Collapse JS plugin was used to create a functioning [navbar toggler icon (aka 'hamburger icon')](https://getbootstrap.com/docs/4.0/components/navbar/#toggler) in the top right-hand corner of the screen on smaller devices. Additional styling of this icon (primarily applying a colour change to its span elements to ensure consistency with the site's overall colour scheme) was facilitated by this [Stack Overflow thread](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color), and in particular its [linked code demo](https://www.codeply.com/go/4FdZGlPMNV).
+  + On smaller devices an [accordion](https://getbootstrap.com/docs/4.0/components/collapse/#accordion-example) was created, again using Bootstrap's Collapse JS plugin, to organise and condense the information contained in the FAQ section. An extension of default collapse behaviour using the card component was necessary here.
+  + On larger devices, a similar need was met via Bootstrap's [carousel](https://getbootstrap.com/docs/4.0/components/carousel/) slideshow component, which again uses a mix of JavaScript and CSS 3D transforms to present relevant details to the user in a manner that is easy to digest and make sense of.
 
-from original Bino theme README.......
-
-== Theme Name: Bino - Free HTML5 Landing Page Template
-
-== Copyright (c) 2016 BootstrapThemes.co
-
-== http://BootstrapThemes.co
-
-
-1. Bootstrap Framwork
-2. HTML5 
-3. Css & Css3
-4. wow animate.css
-5. SmoothScroll
-6. wol Carusel Slider
-7. Mixtub with masonry
-8. jquery magnific-popup.js
-9. fancybox popup vedio
-10. Bootstrap carusel slider
-11. jquery easing js
-12. gmaps API
-13. font Awsome icons
-
-
-Html Created by: http://bootstrapthemes.co
+### Features Left to Implement
 
 
 
-Psd Created by: --Kazi Mohammed Erfan-- https://www.behance.net/gallery/28954423/Freebie-Bino-Landing-Page-PSD-Template
+## Technologies Used
 
+1. HTML
+2. CSS
+3. Bootstrap
 
-Rights: 
-You are permitted to use the resources for any number of personal and commercial projects.
-You may modify the resources according to your requirements and include them into works, 
-such as websites, applications or other materials intended for sale. No attribution or 
-link back to this site is required, however any credit will be much appreciated.
-
-
-Prohibitions:
-You do not have the rights to redistribute, resell, lease, license, sublicense or offer 
-files downloaded from http://bootstrapthemes.co to any third party Ïas isÓ or as a separate attachment 
-from any of your work. If you wish to promote my resources on your site, you must link back 
-to the resource page where users can find the download and not directly to the download file.
+## Testing
 
 
 
-If you would like to share one of my resources, you can do so by making a link to the specific 
-resource on http://bootstrapthemes.co , you can if you wish insert the embed code for the product previews images to illustrate your link. 
-No HOTLINKING is allowed i.e. you cannot make a direct link to the download or/and the images hosted on http://bootstrapthemes.co
+## Deployment
 
-Concerning blog posts, you are free to link to it from any website, 
-but you cannot however publish it as it is, without prior consent from http://bootstrapthemes.co
+
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
+

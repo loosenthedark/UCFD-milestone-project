@@ -509,6 +509,8 @@ a.nav-link {
     padding: 12px 20px 10px;
 }
 
+/* Custom styling of navbar toggler icon in line with the following Stack Overflow thread: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color and in particular its linked code demo: https://www.codeply.com/go/4FdZGlPMNV */
+
 .custom-toggler.navbar-toggler {
     border-color: goldenrod;
 }
