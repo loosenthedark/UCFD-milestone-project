@@ -51,7 +51,11 @@ These three overlapping sets of requirements dictated how I set about devising t
 
 ### Features Left to Implement
 
+As the business grows and the website evolves further, I can envision the need to add or improve each of the following three features:
 
++ **`.navbar-brand` logo**: At present, this is fairly basic and nondescript due to time and development resource constraints. In the near future, however, I would like to implement a more fully-formed and striking Matter of Heart Psychotherapy ('MofH') branded logo that is conspicuous while still being in keeping with the site's general typography and aesthetic.
++ **Expansion/Customisation of Blog section**: For the time being, the blog has been populated with somewhat generic 'filler' content taken from Wikipedia. The hope is that it can be enhanced through the creation and addition of more personalised and tailored blog entries that appeal to MofH clients more effectively. These blog posts could then be pushed to the business's various social media channels to boost the site's reach and ultimately entice more clients. Fortunately, such long-term design considerations have been factored into the site's information architecture from the start; as a result, all existing blog content can be flexibly added to or displaced by more appropriate material without disrupting the site's current flow or visual impact.
++ **[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/start)**: Obviously, any business looking to get off the ground and thrive will generally need a street address of some sort. At the moment, a permanent location for MofH has yet to be finalised. Once an address has been confirmed, I plan on alerting site visitors to its location using a Maps API. Ideally, this would be situated somewhere adjacent to the Contact form towards the foot of the page, [a bit like this](https://www.albapsychotherapy.ie/contact-me/). Once again, Brad from Traversy Media has put together [a pretty comprehensive video tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw) on how to do this, which I will look to follow when the time comes for implementation.
 
 ## Technologies Used
 
