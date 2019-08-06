@@ -16,6 +16,7 @@
 </head>
 
 <!-- Bootstrap JavaScript Scrollspy plugin added to automatically update navbar links based on scroll position by targeting the body element -->
+
 <body data-spy="scroll" data-target=".navbar" data-offset="30">
 
     <!----- Header ----->
@@ -84,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="#contact" class="btn btn--cta" autofocus>Book an appointment</a>
+                    <a href="#contact" class="btn btn--cta">Book an appointment</a>
                 </div>
             </div>
         </section>
@@ -96,7 +97,7 @@
         <div class="container-wrapper about-wrapper">
             <div class="container about-container mx-auto d-sm-none d-md-block d-lg-none">
                 <div class="about-image">
-                    <p><img class="align-middle" id="Ro_img" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="245" height="350"></p>
+                    <p><img class="align-middle" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="245" height="350"></p>
                 </div>
                 <h2 class="about-text-heading d-none d-sm-block">About Me</h2>
                 <div class="row about-row">
@@ -134,7 +135,7 @@
                     <div class="col-sm-4 about-images-landscape">
                         <div class="row">
                             <div class="col about-image">
-                                <p><img class="align-middle" id="Ro_img" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="196" height="280"></p>
+                                <p><img class="align-middle" src="assets/images/ro_about-me-cropped.jpg" alt="About Me image" width="196" height="280"></p>
                             </div>
                         </div>
                         <div class="row">
@@ -306,254 +307,253 @@
         </div>
         <div class="container-fluid container-wrapper faq-wrapper d-none d-md-block">
             <div class="container-fluid faq-container d-none d-md-block">
-                <section class="faq" id="faq">
 
-                    <div id="faqcarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
-                        <div class="faq-heading d-lg-none">
+                <div id="faqcarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+                    <div class="faq-heading d-lg-none">
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                    <div class="container-fluid faq-heading-container d-none d-lg-block">
+                        <div class="faq-heading">
                             <h2>Frequently Asked Questions</h2>
                         </div>
-                        <div class="container-fluid faq-heading-container d-none d-lg-block">
-                            <div class="faq-heading">
-                                <h2>Frequently Asked Questions</h2>
+                    </div>
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#faqcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#faqcarousel" data-slide-to="1"></li>
+                        <li data-target="#faqcarousel" data-slide-to="2"></li>
+                        <li data-target="#faqcarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="container-fluid faq-desktop-wrapper">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-text d-block">
+                                    <div class="faq-group mt-lg-4 mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                What is <span class="text-nowrap">Psychotherapy ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Psychotherapy refers to a range of treatments that can help with mental health problems, emotional challenges, and some psychiatric disorders. It aims to facilitate clients in understanding their feelings, as
+                                                well as identifying what makes them feel positive, anxious, or depressed.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                How does it <span class="text-nowrap">work ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Psychotherapy is a collaborative treatment based on the relationship between an individual and a therapist, which aims to heal emotional and psychological wounds. It can help people confront barriers that interfere
+                                                with mental wellbeing, and it can also help to inspire positive feelings in an effort to address these barriers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                Will therapy change <span class="text-nowrap">me ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>The goal of Psychotherapy is not to change you - although you may of course choose to embrace change - but rather to encourage you to build awareness, compassion, respect, empathy and acceptance toward yourself
+                                                and others.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-text d-block">
+                                    <div class="faq-group">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1 mb-lg-0">
+                                                What do Counselling and Psychotherapy <span class="text-nowrap">involve ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Counsellors and Psychotherapists are trained to work closely with you to enable you to explore thoughts, beliefs, feelings and behaviours that affect your life negatively. Through Counselling and Psychotherapy
+                                                you are given the support and safety to explore, understand and often to change these thoughts, beliefs, feelings and behaviours. The personal growth that can then take place can free you from the limitations
+                                                of old patterns. This can allow more realistic and effective ways of improving the quality, contentment and satisfaction of your life to emerge.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1 mb-lg-0">
+                                                What's the difference between Counselling and <span class="text-nowrap">Psychotherapy ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Counselling and Psychotherapy are often considered to be interchangeable therapies that overlap in a number of ways. The key difference between the two therapeutic processes lies in the recommended time required
+                                                to see benefits. Counselling usually refers to a shorter, more targeted treatment that centres around specific patterns of behaviour. Psychotherapy typically focuses on working with clients for an extended
+                                                period, and draws from insight into general emotional problems and difficulties that may require deeper exploration. I have received extensive training as both a Counsellor and Psychotherapist.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-text d-block">
+                                    <div class="faq-group mt-lg-4 mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                How many sessions will I <span class="text-nowrap">need ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>There really is no simple answer to this question, as it will depend on what kind of issues you are experiencing. During your first session you can discuss this with me, and we can either agree on an open-ended
+                                                arrangement or else decide on a fixed number of sessions. A suggested initial plan might be to work together for approximately six sessions and then review whether to continue further.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                How long will each session <span class="text-nowrap">last ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>The length of a session is 50 minutes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                How often will I attend <span class="text-nowrap">therapy ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Generally speaking, sessions are held on a weekly basis. This allows the relationship between the Therapist and client to develop effectively, as the therapy is regular and consistent. The client can also gain
+                                                a faster and deeper understanding of their experiences this way. In some cases, sessions may take place on a fortnightly basis by agreement with your Therapist.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-text d-block">
+                                    <div class="faq-group mt-lg-4 mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                Is therapy completely <span class="text-nowrap">confidential ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Counselling and Psychotherapy are totally confidential services in almost all situations. However, it is important to point out that in certain circumstances ethical and legal obligations must be considered,
+                                                such as the Child Protection Act (protecting the rights and welfare of children and minors). Your Therapist will fully explain confidentiality to you in your first session.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                How much does a session <span class="text-nowrap">cost ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>The cost per session is €70. A discounted rate is available for students and retirees, as well as for low-waged and unemployed clients.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq-group mb-4">
+                                        <div class="faq-question">
+                                            <h5 class="mb-1">
+                                                What happens if I need to cancel a <span class="text-nowrap">session ?</span>
+                                            </h5>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Should you need to cancel a session, Matter of Heart Psychotherapy requires at least 48 hours notice. If you are unable to cancel your appointment within this timeframe, you will be asked to pay a cancellation
+                                                fee for the missed session, which will be agreed upon at your first meeting with your Counsellor or Psychotherapist.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#faqcarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#faqcarousel" data-slide-to="1"></li>
-                            <li data-target="#faqcarousel" data-slide-to="2"></li>
-                            <li data-target="#faqcarousel" data-slide-to="3"></li>
-                        </ol>
-                        <div class="container-fluid faq-desktop-wrapper">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="carousel-text d-block">
-                                        <div class="faq-group mt-lg-4 mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    What is <span class="text-nowrap">Psychotherapy ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Psychotherapy refers to a range of treatments that can help with mental health problems, emotional challenges, and some psychiatric disorders. It aims to facilitate clients in understanding their feelings,
-                                                    as well as identifying what makes them feel positive, anxious, or depressed.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    How does it <span class="text-nowrap">work ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Psychotherapy is a collaborative treatment based on the relationship between an individual and a therapist, which aims to heal emotional and psychological wounds. It can help people confront barriers that
-                                                    interfere with mental wellbeing, and it can also help to inspire positive feelings in an effort to address these barriers.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    Will therapy change <span class="text-nowrap">me ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>The goal of Psychotherapy is not to change you - although you may of course choose to embrace change - but rather to encourage you to build awareness, compassion, respect, empathy and acceptance toward yourself
-                                                    and others.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-text d-block">
-                                        <div class="faq-group">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1 mb-lg-0">
-                                                    What do Counselling and Psychotherapy <span class="text-nowrap">involve ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Counsellors and Psychotherapists are trained to work closely with you to enable you to explore thoughts, beliefs, feelings and behaviours that affect your life negatively. Through Counselling and Psychotherapy
-                                                    you are given the support and safety to explore, understand and often to change these thoughts, beliefs, feelings and behaviours. The personal growth that can then take place can free you from the limitations
-                                                    of old patterns. This can allow more realistic and effective ways of improving the quality, contentment and satisfaction of your life to emerge.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1 mb-lg-0">
-                                                    What's the difference between Counselling and <span class="text-nowrap">Psychotherapy ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Counselling and Psychotherapy are often considered to be interchangeable therapies that overlap in a number of ways. The key difference between the two therapeutic processes lies in the recommended time
-                                                    required to see benefits. Counselling usually refers to a shorter, more targeted treatment that centres around specific patterns of behaviour. Psychotherapy typically focuses on working with clients
-                                                    for an extended period, and draws from insight into general emotional problems and difficulties that may require deeper exploration. I have received extensive training as both a Counsellor and Psychotherapist.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-text d-block">
-                                        <div class="faq-group mt-lg-4 mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    How many sessions will I <span class="text-nowrap">need ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>There really is no simple answer to this question, as it will depend on what kind of issues you are experiencing. During your first session you can discuss this with me, and we can either agree on an open-ended
-                                                    arrangement or else decide on a fixed number of sessions. A suggested initial plan might be to work together for approximately six sessions and then review whether to continue further.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    How long will each session <span class="text-nowrap">last ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>The length of a session is 50 minutes.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    How often will I attend <span class="text-nowrap">therapy ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Generally speaking, sessions are held on a weekly basis. This allows the relationship between the Therapist and client to develop effectively, as the therapy is regular and consistent. The client can also
-                                                    gain a faster and deeper understanding of their experiences this way. In some cases, sessions may take place on a fortnightly basis by agreement with your Therapist.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-text d-block">
-                                        <div class="faq-group mt-lg-4 mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    Is therapy completely <span class="text-nowrap">confidential ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Counselling and Psychotherapy are totally confidential services in almost all situations. However, it is important to point out that in certain circumstances ethical and legal obligations must be considered,
-                                                    such as the Child Protection Act (protecting the rights and welfare of children and minors). Your Therapist will fully explain confidentiality to you in your first session.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    How much does a session <span class="text-nowrap">cost ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>The cost per session is €70. A discounted rate is available for students and retirees, as well as for low-waged and unemployed clients.</p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-group mb-4">
-                                            <div class="faq-question">
-                                                <h5 class="mb-1">
-                                                    What happens if I need to cancel a <span class="text-nowrap">session ?</span>
-                                                </h5>
-                                            </div>
-                                            <div class="faq-answer">
-                                                <p>Should you need to cancel a session, Matter of Heart Psychotherapy requires at least 48 hours notice. If you are unable to cancel your appointment within this timeframe, you will be asked to pay a cancellation
-                                                    fee for the missed session, which will be agreed upon at your first meeting with your Counsellor or Psychotherapist.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#faqcarousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#faqcarousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#faqcarousel" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#faqcarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                             </a>
-                        </div>
                     </div>
-                    <div class="row faqmedia justify-context-around d-lg-none">
-                        <div class="col-7 faqvideo hvr-fade">
-                            <div class="row">
-                                <div class="col faqvideoicon">
-                                    <i class="fas fa-video"></i>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col faqvideocontent">
-                                    <div class="row justify-content-center">
-                                        <div class="col faqvideoiframe">
-                                            <iframe width="370" height="210" src="https://www.youtube.com/embed/g-i6QMvIAA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            <h5>'How Psychotherapy Works'</h5>
-                                            <p>(c/o <a href="https://www.theschooloflife.com/" target="_blank">The School of Life</a>)</p>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
+                <div class="row faqmedia justify-context-around d-lg-none">
+                    <div class="col-7 faqvideo hvr-fade">
+                        <div class="row">
+                            <div class="col faqvideoicon">
+                                <i class="fas fa-video"></i>
                             </div>
                         </div>
-                        <div class="col-5 faqaudio hvr-fade">
-                            <div class="row">
-                                <div class="col faqaudioicon">
-                                    <i class="fas fa-headphones"></i>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col faqaudiocontent">
-                                    <div class="row">
-                                        <div class="col faqaudioiframe">
-                                            <iframe width="85%" height="210" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313363065&color=%235e5d59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                                            <h5>'What Is Psychotherapy?'</h5>
-                                            <p>(c/o <a href="https://www.drsallynazari.com/Season1.en.html" target="_blank">Beyond the Couch Podcast</a>)</p>
-                                        </div>
+                        <div class="row">
+                            <div class="col faqvideocontent">
+                                <div class="row justify-content-center">
+                                    <div class="col faqvideoiframe">
+                                        <iframe width="370" height="210" src="https://www.youtube.com/embed/g-i6QMvIAA0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <h5>'How Psychotherapy Works'</h5>
+                                        <p>(c/o <a href="https://www.theschooloflife.com/" target="_blank">The School of Life</a>)</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container faqmedia-container d-none d-lg-block">
-                        <div class="row faqmedia">
-                            <div class="row faqvideorow">
-                                <div class="col faqvideo hvr-fade pt-3">
-                                    <div class="row">
-                                        <div class="col-2 faqvideoicon">
-                                            <i class="fas fa-video"></i>
-                                        </div>
-                                        <div class="col-10 faqvideocontent">
-                                            <div class="row justify-content-center">
-                                                <div class="col faqvideoiframe">
-                                                    <iframe width="450" height="250" src="https://www.youtube.com/embed/g-i6QMvIAA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                    <h5>'How Psychotherapy Works'</h5>
-                                                    <p>(c/o <a href="https://www.theschooloflife.com/" target="_blank">The School of Life</a>)</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class="col-5 faqaudio hvr-fade">
+                        <div class="row">
+                            <div class="col faqaudioicon">
+                                <i class="fas fa-headphones"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col faqaudiocontent">
+                                <div class="row">
+                                    <div class="col faqaudioiframe">
+                                        <iframe width="250" height="210" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313363065&color=%235e5d59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                                        <h5>'What Is Psychotherapy?'</h5>
+                                        <p>(c/o <a href="https://www.drsallynazari.com/Season1.en.html" target="_blank">Beyond the Couch Podcast</a>)</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row faqaudiorow">
-                                <div class="col faqaudio hvr-fade pt-3">
-                                    <div class="row">
-                                        <div class="col-2 faqaudioicon">
-                                            <i class="fas fa-headphones"></i>
-                                        </div>
-                                        <div class="col-10 faqaudiocontent">
-                                            <div class="row">
-                                                <div class="col faqaudioiframe">
-                                                    <iframe width="450" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313363065&color=%235e5d59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                                                    <h5>'What Is Psychotherapy?'</h5>
-                                                    <p>(c/o <a href="https://www.drsallynazari.com/Season1.en.html" target="_blank">Beyond the Couch Podcast</a>)</p>
-                                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container faqmedia-container d-none d-lg-block">
+                    <div class="row faqmedia">
+                        <div class="row faqvideorow">
+                            <div class="col faqvideo hvr-fade pt-3">
+                                <div class="row">
+                                    <div class="col-2 faqvideoicon">
+                                        <i class="fas fa-video"></i>
+                                    </div>
+                                    <div class="col-10 faqvideocontent">
+                                        <div class="row justify-content-center">
+                                            <div class="col faqvideoiframe">
+                                                <iframe width="450" height="250" src="https://www.youtube.com/embed/g-i6QMvIAA0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <h5>'How Psychotherapy Works'</h5>
+                                                <p>(c/o <a href="https://www.theschooloflife.com/" target="_blank">The School of Life</a>)</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                </section>
+                        <div class="row faqaudiorow">
+                            <div class="col faqaudio hvr-fade pt-3">
+                                <div class="row">
+                                    <div class="col-2 faqaudioicon">
+                                        <i class="fas fa-headphones"></i>
+                                    </div>
+                                    <div class="col-10 faqaudiocontent">
+                                        <div class="row">
+                                            <div class="col faqaudioiframe">
+                                                <iframe width="450" height="80" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313363065&color=%235e5d59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                                                <h5>'What Is Psychotherapy?'</h5>
+                                                <p>(c/o <a href="https://www.drsallynazari.com/Season1.en.html" target="_blank">Beyond the Couch Podcast</a>)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
     <!----- end of FAQ section ----->
     <!----- Blog section ----->
@@ -673,8 +673,9 @@
                             </div>
                             <i class="fas fa-book-reader"></i>
 
-                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A form of depth psychology, the primary focus of which is to reveal the unconscious content of a client's psyche in an effort to alleviate psychic tension.<span class="d-none d-lg-inline-block">”</span><br><a href="https://en.wikipedia.org/wiki/Psychodynamic_psychotherapy"
-                                    class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a></p>
+                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A form of depth psychology, the primary focus of which is to reveal the unconscious content of a client's psyche in an effort to alleviate psychic tension.<span class="d-none d-lg-inline-block">”</span><br>
+                                <a href="https://en.wikipedia.org/wiki/Psychodynamic_psychotherapy" class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -702,8 +703,9 @@
                             </div>
                             <i class="fas fa-book-reader"></i>
 
-                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>Also known as Rogerian Psychotherapy, this is a form of Psychotherapy developed by Psychologist Carl Rogers beginning in the 1940s and extending into the 1980s.<span class="d-none d-lg-inline-block">”</span><br><a href="https://en.wikipedia.org/wiki/Person-centered_therapy"
-                                    class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a></p>
+                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>Also known as Rogerian Psychotherapy, this is a form of Psychotherapy developed by Psychologist Carl Rogers beginning in the 1940s and extending into the 1980s.<span class="d-none d-lg-inline-block">”</span><br>
+                                <a href="https://en.wikipedia.org/wiki/Person-centered_therapy" class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -721,8 +723,9 @@
                             </div>
                             <i class="fas fa-book-reader"></i>
 
-                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A school of Psychoanalysis that emphasizes the role of real and imagined relationships with others in mental disorder and Psychotherapy.<span class="d-none d-lg-inline-block">”</span><br><a href="https://en.wikipedia.org/wiki/Relational_psychoanalysis" class="btn btn-secondary blogreadmore btn--readmore"
-                                    target="_blank">Read more</a></p>
+                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A school of Psychoanalysis that emphasizes the role of real and imagined relationships with others in mental disorder and Psychotherapy.<span class="d-none d-lg-inline-block">”</span><br>
+                                <a href="https://en.wikipedia.org/wiki/Relational_psychoanalysis" class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -750,7 +753,8 @@
                             </div>
                             <i class="fas fa-book-reader"></i>
 
-                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A broad term referring to Clinical Psychotherapy that uses techniques derived from Behaviourism. Those who practice Behavior Therapy tend to look at specific, learned behaviours and how the environment influences those behaviours.<span class="d-none d-lg-inline-block">”</span><br>
+                            <p class="d-none d-sm-block"><span class="d-none d-lg-inline-block">“</span>A broad term referring to Clinical Psychotherapy that uses techniques derived from Behaviourism. Those who practice Behavior Therapy tend to look at specific, learned behaviours
+                                and how the environment influences those behaviours.<span class="d-none d-lg-inline-block">”</span><br>
                                 <a href="https://en.wikipedia.org/wiki/Behaviour_therapy" class="btn btn-secondary blogreadmore btn--readmore" target="_blank">Read more</a>
                             </p>
                         </div>
@@ -822,7 +826,7 @@
                 </div>
                 <div class="row contactform-row">
                     <div class="col-10 offset-1 contactform">
-                        <form method="post" action="">
+                        <form method="post">
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required>
                             </div>
@@ -838,10 +842,10 @@
                                 </select>
                             </div>
                             <div class="form-group textbox d-md-none">
-                                <textarea name="message" class="form-control" id="formmessage" placeholder="Please post your message here..." rows="8" maxlength="2000" required></textarea>
+                                <textarea name="message" class="form-control" placeholder="Please post your message here..." rows="8" maxlength="2000" required></textarea>
                             </div>
                             <div class="form-group textbox d-none d-md-block">
-                                <textarea name="message" class="form-control" id="formmessage" placeholder="Please post your message here, and I will get in touch with you as soon as possible..." rows="10" maxlength="2000" required></textarea>
+                                <textarea name="message" class="form-control" placeholder="Please post your message here, and I will get in touch with you as soon as possible..." rows="10" maxlength="2000" required></textarea>
                             </div>
                             <div class="row">
                                 <div class="col contact-cta">
