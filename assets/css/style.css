@@ -642,7 +642,15 @@ a.nav-link {
     }
 }
 
-
+@media(min-width: 1200px) {
+    .landing-header {
+        font-size: 6.4rem;
+        padding-top: 2rem;
+    }
+    p.landing-text {
+        font-size: 1.7rem;
+    }
+}
 
 /********** ABOUT SECTION **********/
 
@@ -781,6 +789,29 @@ a.nav-link {
     }
     .about-logos {
         text-align: center;
+    }
+}
+
+@media(min-width: 1200px) {
+    .about-text-heading {
+        margin-top: 100px;
+        font-size: 4rem;
+    }
+    .about-text .about-text-main {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+    .about-text .about-text-secondary {
+        margin-bottom: .8rem;
+        font-size: 1.15rem;
+    }
+    .about-image {
+        height: 600px;
+    }
+    .about-image p img {
+        margin-top: 150px;
+        width: 307px;
+        height: 420px;
     }
 }
 
