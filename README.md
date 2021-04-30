@@ -2,10 +2,6 @@
 
 
 
-*Code Institute Diploma in Software Development: User Centric Frontend Development - Milestone Project*
-
-
-
 **[Live link to deployed project](https://loosenthedark.github.io/UCFD-milestone-project/)** (hosted on GitHub Pages)
 
 
@@ -128,12 +124,9 @@ Font Awesome Icons were inserted alongside the media files in the FAQ section an
 The `shortcut icon` (favicon) displayed in the website's tab was supplied with permission by [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar) of [Flaticon](https://www.flaticon.com/).
 
 
-Finally, credit is due to Code Institute UCFD student lead Anthony O'Brien for suggesting [TinyJPG](https://tinyjpg.com/) as an indispensable resource for compressing image files prior to upload in order to speed up site load time. This process was applied to almost all images used in this project.
+Finally, [TinyJPG](https://tinyjpg.com/) proved to be an indispensable resource for compressing image files prior to upload in order to speed up site load time. This process was applied to almost all images used in this project.
 
 
 ### Acknowledgements
 
-Thanks to my mentor Antonio for his timely feedback, encouragement and recommendations throughout this project. Anto pointed me towards [WrapBootstrap](https://wrapbootstrap.com/) for browsing a wide selection of Bootstrap templates and themes, which provided plenty of inspiration. It was also he who suggested I should use Responsinator for testing site responsiveness throughout the construction process, and this proved to be an invaluable tool.
-
-
-Other excellent pieces of advice came via @Anna_G and @Eventyret_mentor (among others) in Code Institute's Slack room. Thanks, guys!
+Thanks to my mentor Antonio for his timely feedback, encouragement and recommendations throughout this project. Anto pointed me towards [WrapBootstrap](https://wrapbootstrap.com/) for browsing a wide selection of Bootstrap templates and themes, which provided plenty of inspiration. It was also he who suggested I should use Responsinator for testing site responsiveness throughout the construction process, and this turned out to be an invaluable tool.
