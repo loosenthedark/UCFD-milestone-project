@@ -2,7 +2,7 @@
 
 
 
-**[Live link to deployed project](https://loosenthedark.github.io/UCFD-milestone-project/)** (hosted on GitHub Pages)
+**[Live link to deployed project](https://loosenthedark.github.io/matter-of-heart-psychotherapy/)** (hosted on GitHub Pages)
 
 
 
