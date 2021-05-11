@@ -4,6 +4,7 @@
 
 **[Live link to deployed project](https://loosenthedark.github.io/matter-of-heart-psychotherapy/)** (hosted on GitHub Pages)
 
+**[Alternative link](http://loosenthedark.tech/matter-of-heart-psychotherapy/)** (hosted on loosenthedark.tech)
 
 
 ---
